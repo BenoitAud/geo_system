@@ -9,31 +9,24 @@ import os
 
 def generate_launch_description():
 
-    shared_dir = get_package_share_directory("ros2_ws")
+    shared_dir_velodyne = get_package_share_directory("velodyne")
+    shared_dir_vectornav = get_package_share_directory("vectornav")
 
-    velodyne_driver_launch = IncludeLaunchDescription(
+    velodyne_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
-            os.path.join(shared_dir, 'launch'),
-            '/velodyne_driver_node-VLP16-launch.py'
-        ])
-    )
-
-    velodyne_pointcloud_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([
-          os.path.join(shared_dir, 'launch'),
-          '/TODO.launch.py'
+            os.path.join(shared_dir_velodyne, 'launch'),
+            '/velodyne-all-nodes-VLP16-launch.py'
         ])
     )
 
     vectornav_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
-          os.path.join(shared_dir, 'launch'),
-          '/TODO.launch.py'
+          os.path.join(shared_dir_vectornav, 'launch'),
+          '/vectornav.launch.py'
         ])
     )
 
     return LaunchDescription([
-        velodyne_driver_launch, 
-        velodyne_pointcloud_launch,
+        velodyne_launch, 
         vectornav_launch
     ])

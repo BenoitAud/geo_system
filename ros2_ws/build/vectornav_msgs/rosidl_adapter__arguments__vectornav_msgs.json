@@ -1,0 +1,17 @@
+{
+  "package_name": "vectornav_msgs",
+  "non_idl_tuples": [
+    "/home/geomatics_in_house_system/ros2_ws/src/vectornav/vectornav_msgs:msg/AttitudeGroup.msg",
+    "/home/geomatics_in_house_system/ros2_ws/src/vectornav/vectornav_msgs:msg/CommonGroup.msg",
+    "/home/geomatics_in_house_system/ros2_ws/src/vectornav/vectornav_msgs:msg/DOP.msg",
+    "/home/geomatics_in_house_system/ros2_ws/src/vectornav/vectornav_msgs:msg/GpsGroup.msg",
+    "/home/geomatics_in_house_system/ros2_ws/src/vectornav/vectornav_msgs:msg/ImuGroup.msg",
+    "/home/geomatics_in_house_system/ros2_ws/src/vectornav/vectornav_msgs:msg/InsGroup.msg",
+    "/home/geomatics_in_house_system/ros2_ws/src/vectornav/vectornav_msgs:msg/InsStatus.msg",
+    "/home/geomatics_in_house_system/ros2_ws/src/vectornav/vectornav_msgs:msg/TimeGroup.msg",
+    "/home/geomatics_in_house_system/ros2_ws/src/vectornav/vectornav_msgs:msg/TimeStatus.msg",
+    "/home/geomatics_in_house_system/ros2_ws/src/vectornav/vectornav_msgs:msg/TimeUTC.msg",
+    "/home/geomatics_in_house_system/ros2_ws/src/vectornav/vectornav_msgs:msg/VpeStatus.msg",
+    "/home/geomatics_in_house_system/ros2_ws/src/vectornav/vectornav_msgs:action/MagCal.action"
+  ]
+}
