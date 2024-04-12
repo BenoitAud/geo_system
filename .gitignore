@@ -1,0 +1,16 @@
+.cache/
+.config/
+.gnupg/
+.local/
+.ros/
+.ssh/
+.vscode-server/
+snap/
+.Xauthority
+.bash_history
+.gitconfig
+.profile
+.selected_editor
+.sudo_as_admin_successful
+.viminfo
+.wget-hsts
