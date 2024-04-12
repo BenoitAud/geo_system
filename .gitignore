@@ -17,3 +17,5 @@ snap/
 .bashrc
 .bash_logout
 .lesshst
+.vscode/
+**.swp
