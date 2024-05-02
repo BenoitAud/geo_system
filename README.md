@@ -5,7 +5,7 @@ This project is built by Benoît Audet in collaboration with the CRDIG (Centre d
 
 ## Quick start
 
-An app runs on startup to control rosbags recordings. Closing the app on the touchscreen enables to use the terminal to run startup scripts.
+A GUI runs on startup to control rosbags recordings. Closing the app on the touchscreen enables to use the terminal to run startup scripts.
 
 To run the GUI use the following command :
 ```
