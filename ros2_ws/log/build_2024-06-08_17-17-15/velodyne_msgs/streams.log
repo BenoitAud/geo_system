@@ -1,0 +1,263 @@
+[0.101s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs
+[0.464s] -- The C compiler identification is GNU 11.4.0
+[0.869s] -- The CXX compiler identification is GNU 11.4.0
+[0.904s] -- Detecting C compiler ABI info
+[1.362s] -- Detecting C compiler ABI info - done
+[1.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.394s] -- Detecting C compile features
+[1.396s] -- Detecting C compile features - done
+[1.408s] -- Detecting CXX compiler ABI info
+[1.907s] -- Detecting CXX compiler ABI info - done
+[1.939s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.940s] -- Detecting CXX compile features
+[1.941s] -- Detecting CXX compile features - done
+[1.967s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.100s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.839s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[4.108s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.151s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.208s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.289s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.406s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.519s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.587s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[6.223s] -- Found ament_cmake_cppcheck: 0.12.10 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[6.246s] -- Found ament_cmake_cpplint: 0.12.10 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[6.270s] -- Found ament_cmake_uncrustify: 0.12.10 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[6.294s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.670s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.559s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.732s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[9.751s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[9.913s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[9.915s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.924s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[9.927s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[10.098s] -- Found PythonExtra: .so  
+[10.441s] -- Found ament_cmake_flake8: 0.12.10 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[10.473s] -- Found ament_cmake_pep257: 0.12.10 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[10.516s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.682s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.688s] -- Added test 'lint_cmake' to check CMake code style
+[10.694s] -- Added test 'xmllint' to check XML markup files
+[10.725s] -- Configuring done
+[10.997s] -- Generating done
+[11.016s] -- Build files have been written to: /home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs
+[11.073s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs
+[11.075s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs -- -j4 -l4
+[11.322s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.496s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.639s] [  5%] Built target ament_cmake_python_copy_velodyne_msgs
+[14.246s] running egg_info
+[14.254s] creating velodyne_msgs.egg-info
+[14.255s] writing velodyne_msgs.egg-info/PKG-INFO
+[14.257s] writing dependency_links to velodyne_msgs.egg-info/dependency_links.txt
+[14.260s] writing top-level names to velodyne_msgs.egg-info/top_level.txt
+[14.264s] writing manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[14.277s] reading manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[14.284s] writing manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[14.561s] [  5%] Built target ament_cmake_python_build_velodyne_msgs_egg
+[14.836s] [  7%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/rosidl_generator_c/velodyne_msgs/msg/detail/velodyne_packet__functions.c.o[0m
+[14.882s] [ 10%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/rosidl_generator_c/velodyne_msgs/msg/detail/velodyne_scan__functions.c.o[0m
+[15.494s] [ 10%] Built target velodyne_msgs__cpp
+[15.634s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.684s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.690s] [ 15%] [32m[1mLinking C shared library libvelodyne_msgs__rosidl_generator_c.so[0m
+[15.725s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.287s] [ 20%] Built target velodyne_msgs__rosidl_generator_c
+[16.389s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[18.459s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velodyne_msgs/msg/detail/velodyne_packet__type_support.cpp.o[0m
+[19.749s] [ 28%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[21.154s] [ 30%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velodyne_msgs/msg/detail/dds_fastrtps/velodyne_packet__type_support.cpp.o[0m
+[21.921s] [ 33%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/detail/velodyne_packet__type_support_c.cpp.o[0m
+[22.770s] [ 35%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[24.303s] [ 38%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velodyne_msgs/msg/detail/velodyne_scan__type_support.cpp.o[0m
+[25.329s] [ 41%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/detail/velodyne_scan__type_support_c.cpp.o[0m
+[27.413s] [ 43%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_cpp.so[0m
+[27.991s] [ 43%] Built target velodyne_msgs__rosidl_typesupport_cpp
+[28.057s] [ 46%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velodyne_msgs/msg/detail/dds_fastrtps/velodyne_scan__type_support.cpp.o[0m
+[28.202s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[29.563s] [ 51%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[29.873s] [ 53%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[30.644s] [ 53%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c
+[30.807s] [ 53%] Built target velodyne_msgs__rosidl_typesupport_introspection_cpp
+[30.822s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[32.243s] [ 58%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velodyne_msgs/msg/detail/velodyne_packet__type_support.c.o[0m
+[32.944s] [ 61%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velodyne_msgs/msg/detail/velodyne_scan__type_support.c.o[0m
+[33.656s] [ 64%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[33.675s] [ 66%] [32m[1mLinking C shared library libvelodyne_msgs__rosidl_typesupport_introspection_c.so[0m
+[34.139s] [ 66%] Built target velodyne_msgs__rosidl_typesupport_introspection_c
+[34.249s] [ 69%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[34.475s] [ 71%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[34.724s] [ 74%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_c.so[0m
+[35.008s] [ 74%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_cpp
+[35.141s] [ 74%] Built target velodyne_msgs__rosidl_typesupport_c
+[35.283s] [ 74%] Built target velodyne_msgs
+[35.489s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[39.963s] [ 76%] Built target velodyne_msgs__py
+[40.114s] [ 79%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_py.dir/rosidl_generator_py/velodyne_msgs/msg/_velodyne_packet_s.c.o[0m
+[40.961s] [ 82%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_py.dir/rosidl_generator_py/velodyne_msgs/msg/_velodyne_scan_s.c.o[0m
+[41.799s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/libvelodyne_msgs__rosidl_generator_py.so[0m
+[42.171s] [ 84%] Built target velodyne_msgs__rosidl_generator_py
+[42.311s] [ 87%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[43.063s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[43.370s] [ 89%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext
+[43.510s] [ 92%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[44.288s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[44.597s] [ 94%] Built target velodyne_msgs__rosidl_typesupport_c__pyext
+[44.755s] [ 97%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[45.564s] [100%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[45.888s] [100%] Built target velodyne_msgs__rosidl_typesupport_introspection_c__pyext
+[45.968s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs -- -j4 -l4
+[46.941s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs
+[46.999s] -- Install configuration: ""
+[47.003s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/ament_index/resource_index/rosidl_interfaces/velodyne_msgs
+[47.007s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[47.010s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[47.014s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_packet.h
+[47.018s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[47.022s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__struct.h
+[47.026s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__functions.c
+[47.028s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.h
+[47.030s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__functions.h
+[47.032s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__functions.h
+[47.034s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__struct.h
+[47.036s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__functions.c
+[47.038s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.h
+[47.040s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_scan.h
+[47.042s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_generator_c__visibility_control.h
+[47.045s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.sh
+[47.048s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.dsv
+[47.051s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so
+[47.055s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so" to ""
+[47.057s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[47.058s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[47.059s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[47.060s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_c.h
+[47.064s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_c.h
+[47.068s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[47.071s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so
+[47.077s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[47.079s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[47.082s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[47.084s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_packet.hpp
+[47.088s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[47.091s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__builder.hpp
+[47.095s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__struct.hpp
+[47.099s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__builder.hpp
+[47.103s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__struct.hpp
+[47.107s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__traits.hpp
+[47.110s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__traits.hpp
+[47.114s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_scan.hpp
+[47.117s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[47.119s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[47.122s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[47.124s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[47.128s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/dds_fastrtps
+[47.132s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[47.136s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[47.141s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so
+[47.148s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[47.151s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[47.154s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[47.156s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[47.160s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[47.163s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.c
+[47.167s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.c
+[47.171s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_c.h
+[47.176s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_c.h
+[47.180s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so
+[47.186s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so" to ""
+[47.188s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so
+[47.193s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so" to ""
+[47.196s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[47.198s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[47.200s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[47.202s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.cpp
+[47.206s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.cpp
+[47.210s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_cpp.hpp
+[47.213s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_cpp.hpp
+[47.217s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so
+[47.223s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[47.225s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so
+[47.230s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so" to ""
+[47.233s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.sh
+[47.237s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.dsv
+[47.241s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.4.0-py3.10.egg-info
+[47.245s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.4.0-py3.10.egg-info/dependency_links.txt
+[47.249s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.4.0-py3.10.egg-info/SOURCES.txt
+[47.253s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.4.0-py3.10.egg-info/top_level.txt
+[47.256s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.4.0-py3.10.egg-info/PKG-INFO
+[47.260s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs
+[47.263s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[47.267s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[47.271s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg
+[47.274s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet.py
+[47.278s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/__init__.py
+[47.282s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan.py
+[47.285s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan_s.c
+[47.291s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet_s.c
+[47.295s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[47.299s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_c.c
+[47.303s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/libvelodyne_msgs__rosidl_generator_py.so
+[47.308s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[47.312s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/__init__.py
+[47.316s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[47.640s] Listing '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs'...
+[47.643s] Compiling '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/__init__.py'...
+[47.645s] Listing '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg'...
+[47.647s] Compiling '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/__init__.py'...
+[47.650s] Compiling '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet.py'...
+[47.651s] Compiling '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan.py'...
+[47.706s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[47.712s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[47.716s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[47.723s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[47.727s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[47.733s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[47.736s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_py.so
+[47.742s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_py.so" to ""
+[47.746s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.idl
+[47.752s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.idl
+[47.756s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.msg
+[47.760s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.msg
+[47.765s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/ament_index/resource_index/package_run_dependencies/velodyne_msgs
+[47.769s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/ament_index/resource_index/parent_prefix_path/velodyne_msgs
+[47.774s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.sh
+[47.778s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.dsv
+[47.782s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/path.sh
+[47.786s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/environment/path.dsv
+[47.790s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.bash
+[47.795s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.sh
+[47.799s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.zsh
+[47.803s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.dsv
+[47.807s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.dsv
+[47.812s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/ament_index/resource_index/packages/velodyne_msgs
+[47.817s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cExport.cmake
+[47.822s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cExport-noconfig.cmake
+[47.828s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[47.832s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[47.837s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cppExport.cmake
+[47.842s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[47.847s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[47.854s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport.cmake
+[47.859s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[47.863s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport.cmake
+[47.868s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[47.871s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[47.875s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[47.879s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport.cmake
+[47.884s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[47.889s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_pyExport.cmake
+[47.893s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_pyExport-noconfig.cmake
+[47.897s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake-extras.cmake
+[47.901s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.905s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.909s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[47.913s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[47.917s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[47.921s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[47.925s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig.cmake
+[47.929s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig-version.cmake
+[47.933s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.xml
+[47.955s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs

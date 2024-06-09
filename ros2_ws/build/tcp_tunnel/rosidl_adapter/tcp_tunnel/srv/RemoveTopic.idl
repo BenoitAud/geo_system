@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tcp_tunnel/srv/RemoveTopic.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/String.idl"
+
+module tcp_tunnel {
+  module srv {
+    struct RemoveTopic_Request {
+      std_msgs::msg::String topic;
+    };
+    struct RemoveTopic_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

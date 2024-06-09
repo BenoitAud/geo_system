@@ -1,0 +1,313 @@
+[0.069s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/tcp_tunnel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/geomatics_in_house_system/ros2_ws/src/ros2_tcp_tunnel -DCMAKE_INSTALL_PREFIX=/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel
+[0.609s] -- The C compiler identification is GNU 11.4.0
+[1.070s] -- The CXX compiler identification is GNU 11.4.0
+[1.117s] -- Detecting C compiler ABI info
+[1.833s] -- Detecting C compiler ABI info - done
+[1.903s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.905s] -- Detecting C compile features
+[1.909s] -- Detecting C compile features - done
+[1.931s] -- Detecting CXX compiler ABI info
+[2.613s] -- Detecting CXX compiler ABI info - done
+[2.659s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.663s] -- Detecting CXX compile features
+[2.668s] -- Detecting CXX compile features - done
+[2.714s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.351s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.603s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[6.416s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.500s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.666s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.807s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.096s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.027s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.072s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.274s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.754s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.563s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.718s] -- Looking for pthread.h
+[11.423s] -- Looking for pthread.h - found
+[11.428s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.093s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.100s] -- Found Threads: TRUE  
+[13.835s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[17.130s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[21.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[23.036s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[23.109s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[23.414s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[23.417s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[23.419s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[23.421s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[23.632s] -- Found PythonExtra: .so  
+[24.309s] -- Configuring done
+[24.780s] -- Generating done
+[24.813s] -- Build files have been written to: /home/geomatics_in_house_system/ros2_ws/build/tcp_tunnel
+[24.918s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/tcp_tunnel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/geomatics_in_house_system/ros2_ws/src/ros2_tcp_tunnel -DCMAKE_INSTALL_PREFIX=/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel
+[24.922s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/tcp_tunnel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/tcp_tunnel -- -j4 -l4
+[25.449s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[29.794s] [  1%] Built target tcp_tunnel__cpp
+[30.054s] [  1%] Built target ament_cmake_python_copy_tcp_tunnel
+[30.139s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[34.168s] [  5%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tcp_tunnel/srv/detail/dds_fastrtps/register_client__type_support.cpp.o[0m
+[38.913s] [  7%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tcp_tunnel/srv/detail/dds_fastrtps/add_topic__type_support.cpp.o[0m
+[42.989s] [  9%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tcp_tunnel/srv/detail/dds_fastrtps/remove_topic__type_support.cpp.o[0m
+[46.994s] [ 11%] [32m[1mLinking CXX shared library libtcp_tunnel__rosidl_typesupport_fastrtps_cpp.so[0m
+[47.624s] [ 11%] Built target tcp_tunnel__rosidl_typesupport_fastrtps_cpp
+[47.705s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[50.978s] [ 15%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tcp_tunnel/srv/detail/register_client__type_support.cpp.o[0m
+[55.059s] [ 16%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tcp_tunnel/srv/detail/add_topic__type_support.cpp.o[0m
+[58.722s] [ 18%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tcp_tunnel/srv/detail/remove_topic__type_support.cpp.o[0m
+[62.295s] [ 20%] [32m[1mLinking CXX shared library libtcp_tunnel__rosidl_typesupport_introspection_cpp.so[0m
+[62.857s] [ 20%] Built target tcp_tunnel__rosidl_typesupport_introspection_cpp
+[65.737s] running egg_info
+[65.741s] creating tcp_tunnel.egg-info
+[65.744s] writing tcp_tunnel.egg-info/PKG-INFO
+[65.748s] writing dependency_links to tcp_tunnel.egg-info/dependency_links.txt
+[65.752s] writing top-level names to tcp_tunnel.egg-info/top_level.txt
+[65.756s] writing manifest file 'tcp_tunnel.egg-info/SOURCES.txt'
+[65.783s] reading manifest file 'tcp_tunnel.egg-info/SOURCES.txt'
+[65.791s] writing manifest file 'tcp_tunnel.egg-info/SOURCES.txt'
+[66.033s] [ 20%] Built target ament_cmake_python_build_tcp_tunnel_egg
+[66.161s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[69.098s] [ 24%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tcp_tunnel/srv/register_client__type_support.cpp.o[0m
+[71.665s] [ 26%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tcp_tunnel/srv/remove_topic__type_support.cpp.o[0m
+[74.380s] [ 28%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tcp_tunnel/srv/add_topic__type_support.cpp.o[0m
+[77.071s] [ 30%] [32m[1mLinking CXX shared library libtcp_tunnel__rosidl_typesupport_cpp.so[0m
+[77.438s] [ 30%] Built target tcp_tunnel__rosidl_typesupport_cpp
+[77.529s] [ 32%] [34m[1mGenerating C code for ROS interfaces[0m
+[82.217s] [ 33%] [32mBuilding C object CMakeFiles/tcp_tunnel__rosidl_generator_c.dir/rosidl_generator_c/tcp_tunnel/srv/detail/register_client__functions.c.o[0m
+[83.589s] [ 35%] [32mBuilding C object CMakeFiles/tcp_tunnel__rosidl_generator_c.dir/rosidl_generator_c/tcp_tunnel/srv/detail/add_topic__functions.c.o[0m
+[84.821s] [ 37%] [32mBuilding C object CMakeFiles/tcp_tunnel__rosidl_generator_c.dir/rosidl_generator_c/tcp_tunnel/srv/detail/remove_topic__functions.c.o[0m
+[86.077s] [ 39%] [32m[1mLinking C shared library libtcp_tunnel__rosidl_generator_c.so[0m
+[86.399s] [ 39%] Built target tcp_tunnel__rosidl_generator_c
+[86.594s] [ 41%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[163.842s] [ 43%] [32mBuilding CXX object CMakeFiles/client.dir/src/semaphore.cpp.o[0m
+[188.907s] [ 45%] [32m[1mLinking CXX executable client[0m
+[190.010s] [ 45%] Built target client
+[190.092s] [ 47%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[193.889s] [ 49%] [32mBuilding C object CMakeFiles/tcp_tunnel__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tcp_tunnel/srv/detail/register_client__type_support.c.o[0m
+[194.474s] [ 50%] [32mBuilding C object CMakeFiles/tcp_tunnel__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tcp_tunnel/srv/detail/add_topic__type_support.c.o[0m
+[194.966s] [ 52%] [32mBuilding C object CMakeFiles/tcp_tunnel__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tcp_tunnel/srv/detail/remove_topic__type_support.c.o[0m
+[195.442s] [ 54%] [32m[1mLinking C shared library libtcp_tunnel__rosidl_typesupport_introspection_c.so[0m
+[195.684s] [ 54%] Built target tcp_tunnel__rosidl_typesupport_introspection_c
+[195.766s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[198.607s] [ 58%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_c.dir/rosidl_typesupport_c/tcp_tunnel/srv/register_client__type_support.cpp.o[0m
+[199.021s] [ 60%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_c.dir/rosidl_typesupport_c/tcp_tunnel/srv/add_topic__type_support.cpp.o[0m
+[199.423s] [ 62%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_c.dir/rosidl_typesupport_c/tcp_tunnel/srv/remove_topic__type_support.cpp.o[0m
+[199.762s] [ 64%] [32m[1mLinking CXX shared library libtcp_tunnel__rosidl_typesupport_c.so[0m
+[200.244s] [ 64%] Built target tcp_tunnel__rosidl_typesupport_c
+[200.354s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[204.249s] [ 67%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tcp_tunnel/srv/detail/register_client__type_support_c.cpp.o[0m
+[207.910s] [ 69%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tcp_tunnel/srv/detail/remove_topic__type_support_c.cpp.o[0m
+[211.459s] [ 71%] [32mBuilding CXX object CMakeFiles/tcp_tunnel__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tcp_tunnel/srv/detail/add_topic__type_support_c.cpp.o[0m
+[215.235s] [ 73%] [32m[1mLinking CXX shared library libtcp_tunnel__rosidl_typesupport_fastrtps_c.so[0m
+[215.883s] [ 73%] Built target tcp_tunnel__rosidl_typesupport_fastrtps_c
+[216.081s] [ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[276.229s] [ 77%] [32mBuilding CXX object CMakeFiles/server.dir/src/semaphore.cpp.o[0m
+[301.151s] [ 79%] [32m[1mLinking CXX executable server[0m
+[302.243s] [ 79%] Built target server
+[302.417s] [ 79%] Built target tcp_tunnel
+[302.637s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[309.631s] [ 81%] Built target tcp_tunnel__py
+[309.842s] [ 83%] [32mBuilding C object CMakeFiles/tcp_tunnel__rosidl_generator_py.dir/rosidl_generator_py/tcp_tunnel/srv/_register_client_s.c.o[0m
+[311.229s] [ 84%] [32mBuilding C object CMakeFiles/tcp_tunnel__rosidl_generator_py.dir/rosidl_generator_py/tcp_tunnel/srv/_remove_topic_s.c.o[0m
+[312.576s] [ 86%] [32mBuilding C object CMakeFiles/tcp_tunnel__rosidl_generator_py.dir/rosidl_generator_py/tcp_tunnel/srv/_add_topic_s.c.o[0m
+[313.835s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/tcp_tunnel/libtcp_tunnel__rosidl_generator_py.so[0m
+[314.220s] [ 88%] Built target tcp_tunnel__rosidl_generator_py
+[314.374s] [ 90%] [32mBuilding C object CMakeFiles/tcp_tunnel__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tcp_tunnel/_tcp_tunnel_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[316.293s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/tcp_tunnel/tcp_tunnel_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[316.668s] [ 92%] Built target tcp_tunnel__rosidl_typesupport_fastrtps_c__pyext
+[316.902s] [ 94%] [32mBuilding C object CMakeFiles/tcp_tunnel__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tcp_tunnel/_tcp_tunnel_s.ep.rosidl_typesupport_c.c.o[0m
+[318.602s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/tcp_tunnel/tcp_tunnel_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[319.138s] [ 96%] Built target tcp_tunnel__rosidl_typesupport_c__pyext
+[319.348s] [ 98%] [32mBuilding C object CMakeFiles/tcp_tunnel__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tcp_tunnel/_tcp_tunnel_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[321.114s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tcp_tunnel/tcp_tunnel_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[321.533s] [100%] Built target tcp_tunnel__rosidl_typesupport_introspection_c__pyext
+[321.613s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/tcp_tunnel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/tcp_tunnel -- -j4 -l4
+[323.374s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/tcp_tunnel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/tcp_tunnel
+[323.508s] -- Install configuration: "Release"
+[323.514s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/ament_index/resource_index/rosidl_interfaces/tcp_tunnel
+[323.521s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel
+[323.526s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/msg
+[323.530s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/msg/rosidl_generator_c__visibility_control.h
+[323.535s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv
+[323.539s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/remove_topic.h
+[323.545s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/add_topic.h
+[323.551s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/register_client.h
+[323.556s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail
+[323.561s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/add_topic__functions.c
+[323.567s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/register_client__type_support.h
+[323.573s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/add_topic__functions.h
+[323.577s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/remove_topic__type_support.h
+[323.582s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/remove_topic__functions.h
+[323.586s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/add_topic__type_support.h
+[323.590s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/register_client__struct.h
+[323.594s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/remove_topic__functions.c
+[323.599s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/add_topic__struct.h
+[323.603s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/register_client__functions.c
+[323.608s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/register_client__functions.h
+[323.613s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/remove_topic__struct.h
+[323.619s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/environment/library_path.sh
+[323.624s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/environment/library_path.dsv
+[323.629s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_generator_c.so
+[323.638s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_generator_c.so" to ""
+[323.640s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel
+[323.642s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/msg
+[323.643s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[323.648s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv
+[323.649s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail
+[323.661s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/add_topic__rosidl_typesupport_fastrtps_c.h
+[323.662s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/register_client__rosidl_typesupport_fastrtps_c.h
+[323.664s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/remove_topic__rosidl_typesupport_fastrtps_c.h
+[323.666s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_typesupport_fastrtps_c.so
+[323.676s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_typesupport_fastrtps_c.so" to ""
+[323.678s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel
+[323.679s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv
+[323.681s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail
+[323.683s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/add_topic__struct.hpp
+[323.688s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/add_topic__builder.hpp
+[323.692s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/remove_topic__struct.hpp
+[323.697s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/register_client__builder.hpp
+[323.701s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/register_client__struct.hpp
+[323.706s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/register_client__traits.hpp
+[323.710s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/add_topic__traits.hpp
+[323.715s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/remove_topic__builder.hpp
+[323.721s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/remove_topic__traits.hpp
+[323.724s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/remove_topic.hpp
+[323.728s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/add_topic.hpp
+[323.732s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/register_client.hpp
+[323.736s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel
+[323.738s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/msg
+[323.740s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[323.744s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv
+[323.746s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail
+[323.760s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/add_topic__rosidl_typesupport_fastrtps_cpp.hpp
+[323.761s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/register_client__rosidl_typesupport_fastrtps_cpp.hpp
+[323.764s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/dds_fastrtps
+[323.766s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/remove_topic__rosidl_typesupport_fastrtps_cpp.hpp
+[323.769s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_typesupport_fastrtps_cpp.so
+[323.773s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_typesupport_fastrtps_cpp.so" to ""
+[323.774s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel
+[323.775s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/msg
+[323.776s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[323.777s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv
+[323.778s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail
+[323.779s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/register_client__type_support.c
+[323.781s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/remove_topic__type_support.c
+[323.783s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/remove_topic__rosidl_typesupport_introspection_c.h
+[323.785s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/add_topic__type_support.c
+[323.787s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/add_topic__rosidl_typesupport_introspection_c.h
+[323.789s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/register_client__rosidl_typesupport_introspection_c.h
+[323.790s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_typesupport_introspection_c.so
+[323.794s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_typesupport_introspection_c.so" to ""
+[323.795s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_typesupport_c.so
+[323.799s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_typesupport_c.so" to ""
+[323.800s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel
+[323.801s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv
+[323.801s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail
+[323.812s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/register_client__rosidl_typesupport_introspection_cpp.hpp
+[323.813s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/add_topic__rosidl_typesupport_introspection_cpp.hpp
+[323.814s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/add_topic__type_support.cpp
+[323.814s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/remove_topic__type_support.cpp
+[323.815s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/remove_topic__rosidl_typesupport_introspection_cpp.hpp
+[323.816s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/include/tcp_tunnel/tcp_tunnel/srv/detail/register_client__type_support.cpp
+[323.817s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_typesupport_introspection_cpp.so
+[323.821s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_typesupport_introspection_cpp.so" to ""
+[323.822s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_typesupport_cpp.so
+[323.826s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_typesupport_cpp.so" to ""
+[323.827s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/environment/pythonpath.sh
+[323.829s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/environment/pythonpath.dsv
+[323.831s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel-0.0.1-py3.10.egg-info
+[323.833s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel-0.0.1-py3.10.egg-info/dependency_links.txt
+[323.835s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel-0.0.1-py3.10.egg-info/SOURCES.txt
+[323.837s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel-0.0.1-py3.10.egg-info/top_level.txt
+[323.839s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel-0.0.1-py3.10.egg-info/PKG-INFO
+[323.841s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel
+[323.842s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/srv
+[323.844s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/srv/_remove_topic_s.c
+[323.846s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/srv/_add_topic_s.c
+[323.848s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/srv/_register_client.py
+[323.851s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/srv/__init__.py
+[323.853s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/srv/_register_client_s.c
+[323.855s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/srv/_remove_topic.py
+[323.857s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/srv/_add_topic.py
+[323.859s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/_tcp_tunnel_s.ep.rosidl_typesupport_fastrtps_c.c
+[323.862s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/_tcp_tunnel_s.ep.rosidl_typesupport_introspection_c.c
+[323.864s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/tcp_tunnel_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[323.867s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/_tcp_tunnel_s.ep.rosidl_typesupport_c.c
+[323.870s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/tcp_tunnel_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[323.872s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/__init__.py
+[323.874s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/libtcp_tunnel__rosidl_generator_py.so
+[323.876s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/tcp_tunnel_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[324.285s] Listing '/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel'...
+[324.287s] Compiling '/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/__init__.py'...
+[324.289s] Listing '/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/srv'...
+[324.291s] Compiling '/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/srv/__init__.py'...
+[324.292s] Compiling '/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/srv/_add_topic.py'...
+[324.294s] Compiling '/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/srv/_register_client.py'...
+[324.307s] Compiling '/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/srv/_remove_topic.py'...
+[324.325s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/tcp_tunnel_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[324.330s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/tcp_tunnel_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[324.332s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/tcp_tunnel_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[324.337s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/tcp_tunnel_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[324.340s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/tcp_tunnel_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[324.344s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages/tcp_tunnel/tcp_tunnel_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[324.346s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_generator_py.so
+[324.350s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/libtcp_tunnel__rosidl_generator_py.so" to ""
+[324.351s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/srv/RegisterClient.idl
+[324.354s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/srv/AddTopic.idl
+[324.356s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/srv/RemoveTopic.idl
+[324.358s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/srv/RegisterClient.srv
+[324.360s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/srv/RegisterClient_Request.msg
+[324.362s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/srv/RegisterClient_Response.msg
+[324.365s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/srv/AddTopic.srv
+[324.367s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/srv/AddTopic_Request.msg
+[324.369s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/srv/AddTopic_Response.msg
+[324.371s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/srv/RemoveTopic.srv
+[324.374s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/srv/RemoveTopic_Request.msg
+[324.376s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/srv/RemoveTopic_Response.msg
+[324.379s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/tcp_tunnel/client
+[324.386s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/tcp_tunnel/client" to ""
+[324.388s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/tcp_tunnel/server
+[324.394s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib/tcp_tunnel/server" to ""
+[324.396s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/ament_index/resource_index/package_run_dependencies/tcp_tunnel
+[324.399s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/ament_index/resource_index/parent_prefix_path/tcp_tunnel
+[324.401s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/environment/ament_prefix_path.sh
+[324.403s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/environment/ament_prefix_path.dsv
+[324.406s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/environment/path.sh
+[324.408s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/environment/path.dsv
+[324.410s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/local_setup.bash
+[324.413s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/local_setup.sh
+[324.415s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/local_setup.zsh
+[324.417s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/local_setup.dsv
+[324.419s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/package.dsv
+[324.424s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/ament_index/resource_index/packages/tcp_tunnel
+[324.427s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/export_tcp_tunnel__rosidl_generator_cExport.cmake
+[324.430s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/export_tcp_tunnel__rosidl_generator_cExport-release.cmake
+[324.432s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/export_tcp_tunnel__rosidl_typesupport_fastrtps_cExport.cmake
+[324.435s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/export_tcp_tunnel__rosidl_typesupport_fastrtps_cExport-release.cmake
+[324.438s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/export_tcp_tunnel__rosidl_generator_cppExport.cmake
+[324.440s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/export_tcp_tunnel__rosidl_typesupport_fastrtps_cppExport.cmake
+[324.443s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/export_tcp_tunnel__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[324.446s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/tcp_tunnel__rosidl_typesupport_introspection_cExport.cmake
+[324.448s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/tcp_tunnel__rosidl_typesupport_introspection_cExport-release.cmake
+[324.451s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/tcp_tunnel__rosidl_typesupport_cExport.cmake
+[324.454s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/tcp_tunnel__rosidl_typesupport_cExport-release.cmake
+[324.456s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/tcp_tunnel__rosidl_typesupport_introspection_cppExport.cmake
+[324.459s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/tcp_tunnel__rosidl_typesupport_introspection_cppExport-release.cmake
+[324.462s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/tcp_tunnel__rosidl_typesupport_cppExport.cmake
+[324.464s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/tcp_tunnel__rosidl_typesupport_cppExport-release.cmake
+[324.467s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/export_tcp_tunnel__rosidl_generator_pyExport.cmake
+[324.470s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/export_tcp_tunnel__rosidl_generator_pyExport-release.cmake
+[324.472s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/rosidl_cmake-extras.cmake
+[324.475s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/ament_cmake_export_dependencies-extras.cmake
+[324.477s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/ament_cmake_export_include_directories-extras.cmake
+[324.480s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/ament_cmake_export_libraries-extras.cmake
+[324.482s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/ament_cmake_export_targets-extras.cmake
+[324.485s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[324.488s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[324.493s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/tcp_tunnelConfig.cmake
+[324.497s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/cmake/tcp_tunnelConfig-version.cmake
+[324.501s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/share/tcp_tunnel/package.xml
+[324.528s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/tcp_tunnel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/tcp_tunnel

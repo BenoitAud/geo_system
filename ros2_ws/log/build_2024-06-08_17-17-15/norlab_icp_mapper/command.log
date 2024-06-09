@@ -1,0 +1,6 @@
+Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper': /usr/bin/cmake /home/geomatics_in_house_system/ros2_ws/src/norlab_icp_mapper -DCMAKE_INSTALL_PREFIX=/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper
+Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper' returned '0': /usr/bin/cmake /home/geomatics_in_house_system/ros2_ws/src/norlab_icp_mapper -DCMAKE_INSTALL_PREFIX=/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper
+Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper': /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper -- -j4 -l4
+Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper' returned '0': /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper -- -j4 -l4
+Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper': /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper
+Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper' returned '0': /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper

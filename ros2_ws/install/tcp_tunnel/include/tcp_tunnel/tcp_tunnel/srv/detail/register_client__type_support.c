@@ -1,0 +1,399 @@
+// generated from rosidl_typesupport_introspection_c/resource/idl__type_support.c.em
+// with input from tcp_tunnel:srv/RegisterClient.idl
+// generated code does not contain a copyright notice
+
+#include <stddef.h>
+#include "tcp_tunnel/srv/detail/register_client__rosidl_typesupport_introspection_c.h"
+#include "tcp_tunnel/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+#include "rosidl_typesupport_introspection_c/field_types.h"
+#include "rosidl_typesupport_introspection_c/identifier.h"
+#include "rosidl_typesupport_introspection_c/message_introspection.h"
+#include "tcp_tunnel/srv/detail/register_client__functions.h"
+#include "tcp_tunnel/srv/detail/register_client__struct.h"
+
+
+// Include directives for member types
+// Member `topic`
+// Member `client_ip`
+#include "std_msgs/msg/string.h"
+// Member `topic`
+// Member `client_ip`
+#include "std_msgs/msg/detail/string__rosidl_typesupport_introspection_c.h"
+// Member `tunnel_queue_size`
+#include "std_msgs/msg/u_int64.h"
+// Member `tunnel_queue_size`
+#include "std_msgs/msg/detail/u_int64__rosidl_typesupport_introspection_c.h"
+// Member `client_port`
+#include "std_msgs/msg/u_int16.h"
+// Member `client_port`
+#include "std_msgs/msg/detail/u_int16__rosidl_typesupport_introspection_c.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+void tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_init_function(
+  void * message_memory, enum rosidl_runtime_c__message_initialization _init)
+{
+  // TODO(karsten1987): initializers are not yet implemented for typesupport c
+  // see https://github.com/ros2/ros2/issues/397
+  (void) _init;
+  tcp_tunnel__srv__RegisterClient_Request__init(message_memory);
+}
+
+void tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_fini_function(void * message_memory)
+{
+  tcp_tunnel__srv__RegisterClient_Request__fini(message_memory);
+}
+
+static rosidl_typesupport_introspection_c__MessageMember tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_message_member_array[4] = {
+  {
+    "topic",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tcp_tunnel__srv__RegisterClient_Request, topic),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "tunnel_queue_size",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tcp_tunnel__srv__RegisterClient_Request, tunnel_queue_size),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "client_ip",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tcp_tunnel__srv__RegisterClient_Request, client_ip),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "client_port",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tcp_tunnel__srv__RegisterClient_Request, client_port),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  }
+};
+
+static const rosidl_typesupport_introspection_c__MessageMembers tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_message_members = {
+  "tcp_tunnel__srv",  // message namespace
+  "RegisterClient_Request",  // message name
+  4,  // number of fields
+  sizeof(tcp_tunnel__srv__RegisterClient_Request),
+  tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_message_member_array,  // message members
+  tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_init_function,  // function to initialize message memory (memory has to be allocated)
+  tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_fini_function  // function to terminate message instance (will not free memory)
+};
+
+// this is not const since it must be initialized on first access
+// since C does not allow non-integral compile-time constants
+static rosidl_message_type_support_t tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_message_type_support_handle = {
+  0,
+  &tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_message_members,
+  get_message_typesupport_handle_function,
+};
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_tcp_tunnel
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, tcp_tunnel, srv, RegisterClient_Request)() {
+  tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_message_member_array[0].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, String)();
+  tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_message_member_array[1].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, UInt64)();
+  tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_message_member_array[2].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, String)();
+  tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_message_member_array[3].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, UInt16)();
+  if (!tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_message_type_support_handle.typesupport_identifier) {
+    tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_message_type_support_handle.typesupport_identifier =
+      rosidl_typesupport_introspection_c__identifier;
+  }
+  return &tcp_tunnel__srv__RegisterClient_Request__rosidl_typesupport_introspection_c__RegisterClient_Request_message_type_support_handle;
+}
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include <stddef.h>
+// already included above
+// #include "tcp_tunnel/srv/detail/register_client__rosidl_typesupport_introspection_c.h"
+// already included above
+// #include "tcp_tunnel/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_introspection_c/field_types.h"
+// already included above
+// #include "rosidl_typesupport_introspection_c/identifier.h"
+// already included above
+// #include "rosidl_typesupport_introspection_c/message_introspection.h"
+// already included above
+// #include "tcp_tunnel/srv/detail/register_client__functions.h"
+// already included above
+// #include "tcp_tunnel/srv/detail/register_client__struct.h"
+
+
+// Include directives for member types
+// Member `topic_exists`
+#include "std_msgs/msg/bool.h"
+// Member `topic_exists`
+#include "std_msgs/msg/detail/bool__rosidl_typesupport_introspection_c.h"
+// Member `topic_type`
+// Member `reliability_policy`
+// Member `durability_policy`
+// Member `liveliness_policy`
+// already included above
+// #include "std_msgs/msg/string.h"
+// Member `topic_type`
+// Member `reliability_policy`
+// Member `durability_policy`
+// Member `liveliness_policy`
+// already included above
+// #include "std_msgs/msg/detail/string__rosidl_typesupport_introspection_c.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+void tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_init_function(
+  void * message_memory, enum rosidl_runtime_c__message_initialization _init)
+{
+  // TODO(karsten1987): initializers are not yet implemented for typesupport c
+  // see https://github.com/ros2/ros2/issues/397
+  (void) _init;
+  tcp_tunnel__srv__RegisterClient_Response__init(message_memory);
+}
+
+void tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_fini_function(void * message_memory)
+{
+  tcp_tunnel__srv__RegisterClient_Response__fini(message_memory);
+}
+
+static rosidl_typesupport_introspection_c__MessageMember tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_message_member_array[5] = {
+  {
+    "topic_exists",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tcp_tunnel__srv__RegisterClient_Response, topic_exists),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "topic_type",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tcp_tunnel__srv__RegisterClient_Response, topic_type),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "reliability_policy",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tcp_tunnel__srv__RegisterClient_Response, reliability_policy),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "durability_policy",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tcp_tunnel__srv__RegisterClient_Response, durability_policy),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "liveliness_policy",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tcp_tunnel__srv__RegisterClient_Response, liveliness_policy),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  }
+};
+
+static const rosidl_typesupport_introspection_c__MessageMembers tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_message_members = {
+  "tcp_tunnel__srv",  // message namespace
+  "RegisterClient_Response",  // message name
+  5,  // number of fields
+  sizeof(tcp_tunnel__srv__RegisterClient_Response),
+  tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_message_member_array,  // message members
+  tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_init_function,  // function to initialize message memory (memory has to be allocated)
+  tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_fini_function  // function to terminate message instance (will not free memory)
+};
+
+// this is not const since it must be initialized on first access
+// since C does not allow non-integral compile-time constants
+static rosidl_message_type_support_t tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_message_type_support_handle = {
+  0,
+  &tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_message_members,
+  get_message_typesupport_handle_function,
+};
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_tcp_tunnel
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, tcp_tunnel, srv, RegisterClient_Response)() {
+  tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_message_member_array[0].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, Bool)();
+  tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_message_member_array[1].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, String)();
+  tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_message_member_array[2].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, String)();
+  tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_message_member_array[3].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, String)();
+  tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_message_member_array[4].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, String)();
+  if (!tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_message_type_support_handle.typesupport_identifier) {
+    tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_message_type_support_handle.typesupport_identifier =
+      rosidl_typesupport_introspection_c__identifier;
+  }
+  return &tcp_tunnel__srv__RegisterClient_Response__rosidl_typesupport_introspection_c__RegisterClient_Response_message_type_support_handle;
+}
+#ifdef __cplusplus
+}
+#endif
+
+#include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "tcp_tunnel/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+// already included above
+// #include "tcp_tunnel/srv/detail/register_client__rosidl_typesupport_introspection_c.h"
+// already included above
+// #include "rosidl_typesupport_introspection_c/identifier.h"
+#include "rosidl_typesupport_introspection_c/service_introspection.h"
+
+// this is intentionally not const to allow initialization later to prevent an initialization race
+static rosidl_typesupport_introspection_c__ServiceMembers tcp_tunnel__srv__detail__register_client__rosidl_typesupport_introspection_c__RegisterClient_service_members = {
+  "tcp_tunnel__srv",  // service namespace
+  "RegisterClient",  // service name
+  // these two fields are initialized below on the first access
+  NULL,  // request message
+  // tcp_tunnel__srv__detail__register_client__rosidl_typesupport_introspection_c__RegisterClient_Request_message_type_support_handle,
+  NULL  // response message
+  // tcp_tunnel__srv__detail__register_client__rosidl_typesupport_introspection_c__RegisterClient_Response_message_type_support_handle
+};
+
+static rosidl_service_type_support_t tcp_tunnel__srv__detail__register_client__rosidl_typesupport_introspection_c__RegisterClient_service_type_support_handle = {
+  0,
+  &tcp_tunnel__srv__detail__register_client__rosidl_typesupport_introspection_c__RegisterClient_service_members,
+  get_service_typesupport_handle_function,
+};
+
+// Forward declaration of request/response type support functions
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, tcp_tunnel, srv, RegisterClient_Request)();
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, tcp_tunnel, srv, RegisterClient_Response)();
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_tcp_tunnel
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_introspection_c, tcp_tunnel, srv, RegisterClient)() {
+  if (!tcp_tunnel__srv__detail__register_client__rosidl_typesupport_introspection_c__RegisterClient_service_type_support_handle.typesupport_identifier) {
+    tcp_tunnel__srv__detail__register_client__rosidl_typesupport_introspection_c__RegisterClient_service_type_support_handle.typesupport_identifier =
+      rosidl_typesupport_introspection_c__identifier;
+  }
+  rosidl_typesupport_introspection_c__ServiceMembers * service_members =
+    (rosidl_typesupport_introspection_c__ServiceMembers *)tcp_tunnel__srv__detail__register_client__rosidl_typesupport_introspection_c__RegisterClient_service_type_support_handle.data;
+
+  if (!service_members->request_members_) {
+    service_members->request_members_ =
+      (const rosidl_typesupport_introspection_c__MessageMembers *)
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, tcp_tunnel, srv, RegisterClient_Request)()->data;
+  }
+  if (!service_members->response_members_) {
+    service_members->response_members_ =
+      (const rosidl_typesupport_introspection_c__MessageMembers *)
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, tcp_tunnel, srv, RegisterClient_Response)()->data;
+  }
+
+  return &tcp_tunnel__srv__detail__register_client__rosidl_typesupport_introspection_c__RegisterClient_service_type_support_handle;
+}

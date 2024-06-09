@@ -1,0 +1,114 @@
+[0.075s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_driver -DCMAKE_INSTALL_PREFIX=/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver
+[0.470s] -- The C compiler identification is GNU 11.4.0
+[0.848s] -- The CXX compiler identification is GNU 11.4.0
+[0.893s] -- Detecting C compiler ABI info
+[1.381s] -- Detecting C compiler ABI info - done
+[1.416s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.419s] -- Detecting C compile features
+[1.423s] -- Detecting C compile features - done
+[1.442s] -- Detecting CXX compiler ABI info
+[2.014s] -- Detecting CXX compiler ABI info - done
+[2.053s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.057s] -- Detecting CXX compile features
+[2.061s] -- Detecting CXX compile features - done
+[2.090s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.549s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.468s] -- Found diagnostic_msgs: 4.2.3 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[4.979s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.042s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.134s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.325s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.296s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[6.896s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.931s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.943s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.392s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.005s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.111s] -- Looking for pthread.h
+[9.753s] -- Looking for pthread.h - found
+[9.759s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.424s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.432s] -- Found Threads: TRUE  
+[11.499s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[12.096s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[14.109s] -- Found velodyne_msgs: 2.4.0 (/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake)
+[14.452s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.323s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[15.379s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.420s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.424s] -- Configured cppcheck include dirs: /home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_driver/include
+[15.426s] -- Configured cppcheck exclude dirs and/or files: 
+[15.470s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[15.472s] -- Configured cpplint exclude dirs and/or files: 
+[15.483s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.499s] -- Added test 'lint_cmake' to check CMake code style
+[15.511s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.551s] -- Added test 'uncrustify' to check C / C++ code style
+[15.552s] -- Configured uncrustify additional arguments: 
+[15.564s] -- Added test 'xmllint' to check XML markup files
+[15.590s] -- Configuring done
+[15.966s] -- Generating done
+[15.989s] -- Build files have been written to: /home/geomatics_in_house_system/ros2_ws/build/velodyne_driver
+[16.087s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_driver -DCMAKE_INSTALL_PREFIX=/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver
+[16.090s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne_driver -- -j4 -l4
+[16.455s] [  8%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_input.dir/input.cpp.o[0m
+[38.050s] [ 16%] [32m[1mLinking CXX shared library libvelodyne_input.so[0m
+[39.134s] [ 16%] Built target velodyne_input
+[39.289s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[62.543s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[63.008s] [ 33%] Built target gtest
+[63.197s] [ 41%] [32mBuilding CXX object CMakeFiles/velodyne_driver.dir/src/driver/driver.cpp.o[0m
+[113.908s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_driver.so[0m
+[116.699s] [ 50%] Built target velodyne_driver
+[116.899s] [ 58%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[122.495s] [ 66%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[122.766s] [ 66%] Built target gtest_main
+[122.962s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_driver_node.dir/src/driver/velodyne_node.cpp.o[0m
+[152.720s] [ 83%] [32m[1mLinking CXX executable velodyne_driver_node[0m
+[154.702s] [ 83%] Built target velodyne_driver_node
+[154.848s] [ 91%] [32mBuilding CXX object CMakeFiles/time_test.dir/tests/timeconversiontest.cpp.o[0m
+[185.539s] [100%] [32m[1mLinking CXX executable time_test[0m
+[187.250s] [100%] Built target time_test
+[187.336s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne_driver -- -j4 -l4
+[187.740s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne_driver
+[187.797s] -- Install configuration: ""
+[187.800s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib/libvelodyne_driver.so
+[187.831s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib/libvelodyne_driver.so" to ""
+[187.833s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib/velodyne_driver/velodyne_driver_node
+[187.840s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib/velodyne_driver/velodyne_driver_node" to ""
+[187.842s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/include/velodyne_driver
+[187.845s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/include/velodyne_driver/time_conversion.hpp
+[187.848s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/include/velodyne_driver/input.hpp
+[187.851s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/include/velodyne_driver/driver.hpp
+[187.854s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/config
+[187.857s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/config/VLP16-velodyne_driver_node-params.yaml
+[187.863s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/config/VLP32C-velodyne_driver_node-params.yaml
+[187.867s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/config/VLS128-velodyne_driver_node-params.yaml
+[187.871s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/launch
+[187.873s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-composed-launch.py
+[187.877s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLS128-composed-launch.py
+[187.882s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-launch.py
+[187.887s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-launch.py
+[187.891s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLS128-launch.py
+[187.896s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-composed-launch.py
+[187.901s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib/velodyne_driver/vdump
+[187.906s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/ament_index/resource_index/package_run_dependencies/velodyne_driver
+[187.911s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/ament_index/resource_index/parent_prefix_path/velodyne_driver
+[187.917s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.sh
+[187.921s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.dsv
+[187.927s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/environment/path.sh
+[187.930s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/environment/path.dsv
+[187.932s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/local_setup.bash
+[187.934s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/local_setup.sh
+[187.938s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/local_setup.zsh
+[187.941s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/local_setup.dsv
+[187.946s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.dsv
+[187.949s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/ament_index/resource_index/packages/velodyne_driver
+[187.954s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/ament_index/resource_index/rclcpp_components/velodyne_driver
+[187.960s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig.cmake
+[187.963s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig-version.cmake
+[187.967s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.xml
+[187.970s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib/libvelodyne_input.so
+[187.974s] -- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib/libvelodyne_input.so" to ""
+[187.992s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne_driver

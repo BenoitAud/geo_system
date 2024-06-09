@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tcp_tunnel/srv/AddTopic.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/String.idl"
+
+module tcp_tunnel {
+  module srv {
+    struct AddTopic_Request {
+      std_msgs::msg::String topic;
+
+      std_msgs::msg::String tunnel_queue_size;
+
+      std_msgs::msg::String server_namespace;
+    };
+    struct AddTopic_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

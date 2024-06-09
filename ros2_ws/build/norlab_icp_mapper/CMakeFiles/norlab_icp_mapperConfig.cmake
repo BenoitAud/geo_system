@@ -1,0 +1,2 @@
+set(norlab_icp_mapper_INCLUDE_DIRS "/usr/local/include;/usr/include/eigen3;/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper/include/norlab_icp_mapper")
+set(norlab_icp_mapper_LIBRARIES "$<TARGET_FILE:pointmatcher>;yaml-cpp;libnabo::nabo;Threads::Threads;Boost::thread;Boost::filesystem;Boost::system;Boost::program_options;Boost::date_time;Boost::chrono;/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper/lib/libnorlab_icp_mapper.a")

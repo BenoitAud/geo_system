@@ -1,0 +1,8 @@
+{
+  "package_name": "norlab_icp_mapper_ros",
+  "non_idl_tuples": [
+    "/home/geomatics_in_house_system/ros2_ws/src/norlab_icp_mapper_ros:srv/SaveTrajectory.srv",
+    "/home/geomatics_in_house_system/ros2_ws/src/norlab_icp_mapper_ros:srv/SaveMap.srv",
+    "/home/geomatics_in_house_system/ros2_ws/src/norlab_icp_mapper_ros:srv/LoadMap.srv"
+  ]
+}

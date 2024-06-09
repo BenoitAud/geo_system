@@ -1,0 +1,45 @@
+[0.057s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper': /usr/bin/cmake /home/geomatics_in_house_system/ros2_ws/src/norlab_icp_mapper -DCMAKE_INSTALL_PREFIX=/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper
+[0.153s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.156s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.158s]   CMake.
+[0.160s] 
+[0.161s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.163s]   CMake that the project does not need compatibility with older versions.
+[0.165s] 
+[0.173s] [0m
+[0.634s] -- The C compiler identification is GNU 11.4.0
+[1.086s] -- The CXX compiler identification is GNU 11.4.0
+[1.141s] -- Detecting C compiler ABI info
+[1.751s] -- Detecting C compiler ABI info - done
+[1.791s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.794s] -- Detecting C compile features
+[1.798s] -- Detecting C compile features - done
+[1.822s] -- Detecting CXX compiler ABI info
+[2.435s] -- Detecting CXX compiler ABI info - done
+[2.475s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.478s] -- Detecting CXX compile features
+[2.482s] -- Detecting CXX compile features - done
+[3.993s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[4.050s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono 
+[4.071s] -- Configuring done
+[4.113s] -- Generating done
+[4.121s] -- Build files have been written to: /home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper
+[4.149s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper' returned '0': /usr/bin/cmake /home/geomatics_in_house_system/ros2_ws/src/norlab_icp_mapper -DCMAKE_INSTALL_PREFIX=/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper
+[4.153s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper': /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper -- -j4 -l4
+[4.583s] [ 16%] [32mBuilding CXX object CMakeFiles/norlab_icp_mapper.dir/norlab_icp_mapper/Mapper.cpp.o[0m
+[43.166s] [ 33%] [32mBuilding CXX object CMakeFiles/norlab_icp_mapper.dir/norlab_icp_mapper/RAMCellManager.cpp.o[0m
+[70.152s] [ 50%] [32mBuilding CXX object CMakeFiles/norlab_icp_mapper.dir/norlab_icp_mapper/HardDriveCellManager.cpp.o[0m
+[95.841s] [ 66%] [32mBuilding CXX object CMakeFiles/norlab_icp_mapper.dir/norlab_icp_mapper/Trajectory.cpp.o[0m
+[121.497s] [ 83%] [32mBuilding CXX object CMakeFiles/norlab_icp_mapper.dir/norlab_icp_mapper/Map.cpp.o[0m
+[171.911s] [100%] [32m[1mLinking CXX static library libnorlab_icp_mapper.a[0m
+[173.388s] [100%] Built target norlab_icp_mapper
+[173.525s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper' returned '0': /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper -- -j4 -l4
+[173.974s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper': /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper
+[174.081s] -- Install configuration: ""
+[174.083s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper/lib/libnorlab_icp_mapper.a
+[174.163s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper/include/norlab_icp_mapper/Mapper.h
+[174.165s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper/include/norlab_icp_mapper/Map.h
+[174.169s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper/include/norlab_icp_mapper/Trajectory.h
+[174.173s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper/include/norlab_icp_mapper/CellManager.h
+[174.180s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper/lib/cmake/norlab_icp_mapper/norlab_icp_mapperConfig.cmake
+[174.209s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper' returned '0': /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/norlab_icp_mapper

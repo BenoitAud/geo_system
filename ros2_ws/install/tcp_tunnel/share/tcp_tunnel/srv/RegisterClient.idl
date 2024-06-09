@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tcp_tunnel/srv/RegisterClient.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Bool.idl"
+#include "std_msgs/msg/String.idl"
+#include "std_msgs/msg/UInt16.idl"
+#include "std_msgs/msg/UInt64.idl"
+
+module tcp_tunnel {
+  module srv {
+    struct RegisterClient_Request {
+      std_msgs::msg::String topic;
+
+      std_msgs::msg::UInt64 tunnel_queue_size;
+
+      std_msgs::msg::String client_ip;
+
+      std_msgs::msg::UInt16 client_port;
+    };
+    struct RegisterClient_Response {
+      std_msgs::msg::Bool topic_exists;
+
+      std_msgs::msg::String topic_type;
+
+      std_msgs::msg::String reliability_policy;
+
+      std_msgs::msg::String durability_policy;
+
+      std_msgs::msg::String liveliness_policy;
+    };
+  };
+};

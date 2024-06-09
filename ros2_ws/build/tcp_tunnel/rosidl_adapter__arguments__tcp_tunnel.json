@@ -1,0 +1,8 @@
+{
+  "package_name": "tcp_tunnel",
+  "non_idl_tuples": [
+    "/home/geomatics_in_house_system/ros2_ws/src/ros2_tcp_tunnel:srv/RegisterClient.srv",
+    "/home/geomatics_in_house_system/ros2_ws/src/ros2_tcp_tunnel:srv/AddTopic.srv",
+    "/home/geomatics_in_house_system/ros2_ws/src/ros2_tcp_tunnel:srv/RemoveTopic.srv"
+  ]
+}

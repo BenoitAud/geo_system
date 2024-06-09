@@ -1,0 +1,12 @@
+srv/AddTopic.idl
+srv/AddTopic.srv
+srv/AddTopic_Request.msg
+srv/AddTopic_Response.msg
+srv/RegisterClient.idl
+srv/RegisterClient.srv
+srv/RegisterClient_Request.msg
+srv/RegisterClient_Response.msg
+srv/RemoveTopic.idl
+srv/RemoveTopic.srv
+srv/RemoveTopic_Request.msg
+srv/RemoveTopic_Response.msg
