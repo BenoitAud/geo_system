@@ -1,0 +1,4 @@
+Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/imu_odom -- -j4 -l4
+Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/imu_odom -- -j4 -l4
+Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/imu_odom
+Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/imu_odom

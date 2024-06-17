@@ -1,0 +1,24 @@
+[0.120s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/imu_odom -- -j4 -l4
+[0.765s] [100%] Built target imu_odom_node
+[0.933s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/imu_odom -- -j4 -l4
+[1.445s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/imu_odom
+[1.560s] -- Install configuration: ""
+[1.564s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib/imu_odom/imu_odom_node
+[1.568s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/launch
+[1.570s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/launch/imu_odom.launch.py
+[1.572s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/ament_index/resource_index/package_run_dependencies/imu_odom
+[1.574s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/ament_index/resource_index/parent_prefix_path/imu_odom
+[1.576s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/environment/ament_prefix_path.sh
+[1.578s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/environment/ament_prefix_path.dsv
+[1.580s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/environment/path.sh
+[1.582s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/environment/path.dsv
+[1.584s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/local_setup.bash
+[1.586s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/local_setup.sh
+[1.589s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/local_setup.zsh
+[1.591s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/local_setup.dsv
+[1.593s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.dsv
+[1.601s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/ament_index/resource_index/packages/imu_odom
+[1.602s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/cmake/imu_odomConfig.cmake
+[1.603s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/cmake/imu_odomConfig-version.cmake
+[1.604s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.xml
+[1.779s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/imu_odom

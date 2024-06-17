@@ -1,0 +1,26 @@
+[0.088s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/mapper_config_template -- -j4 -l4
+[0.316s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/mapper_config_template -- -j4 -l4
+[0.484s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/mapper_config_template
+[0.553s] -- Install configuration: ""
+[0.554s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/launch
+[0.556s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/launch/mapper.launch
+[0.556s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/params
+[0.557s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/params/map_post_filters_config.yaml
+[0.558s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/params/input_filters_config.yaml
+[0.559s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/params/icp_config.yaml
+[0.560s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/ament_index/resource_index/package_run_dependencies/mapper_config_template
+[0.562s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/ament_index/resource_index/parent_prefix_path/mapper_config_template
+[0.563s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/environment/ament_prefix_path.sh
+[0.563s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/environment/ament_prefix_path.dsv
+[0.564s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/environment/path.sh
+[0.564s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/environment/path.dsv
+[0.565s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/local_setup.bash
+[0.566s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/local_setup.sh
+[0.566s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/local_setup.zsh
+[0.567s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/local_setup.dsv
+[0.570s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.dsv
+[0.571s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/ament_index/resource_index/packages/mapper_config_template
+[0.572s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/cmake/mapper_config_templateConfig.cmake
+[0.572s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/cmake/mapper_config_templateConfig-version.cmake
+[0.572s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.xml
+[0.618s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/mapper_config_template

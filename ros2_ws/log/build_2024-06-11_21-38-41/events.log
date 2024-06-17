@@ -1,0 +1,885 @@
+[0.000000] (-) TimerEvent: {}
+[0.001320] (geo_system) JobQueued: {'identifier': 'geo_system', 'dependencies': OrderedDict()}
+[0.001552] (imu_odom) JobQueued: {'identifier': 'imu_odom', 'dependencies': OrderedDict()}
+[0.001906] (mapper_config_template) JobQueued: {'identifier': 'mapper_config_template', 'dependencies': OrderedDict()}
+[0.002078] (geo_system) JobStarted: {'identifier': 'geo_system'}
+[0.051603] (imu_odom) JobStarted: {'identifier': 'imu_odom'}
+[0.078276] (mapper_config_template) JobStarted: {'identifier': 'mapper_config_template'}
+[0.097765] (-) TimerEvent: {}
+[0.113478] (geo_system) JobProgress: {'identifier': 'geo_system', 'progress': 'cmake'}
+[0.114870] (geo_system) Command: {'cmd': ['/usr/bin/cmake', '/home/geomatics_in_house_system/ros2_ws/src/geo_system', '-DCMAKE_INSTALL_PREFIX=/home/geomatics_in_house_system/ros2_ws/install/geo_system'], 'cwd': '/home/geomatics_in_house_system/ros2_ws/build/geo_system', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'geomatics_in_house_system'), ('SSH_CLIENT', '10.240.64.9 59632 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/geomatics_in_house_system'), ('OLDPWD', '/home/geomatics_in_house_system'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'geomatics_in_house_system'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/geomatics_in_house_system/ros2_ws/build/geo_system'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.240.64.9 59632 10.240.39.210 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble')]), 'shell': False}
+[0.132654] (imu_odom) JobProgress: {'identifier': 'imu_odom', 'progress': 'cmake'}
+[0.137877] (imu_odom) Command: {'cmd': ['/usr/bin/cmake', '/home/geomatics_in_house_system/ros2_ws/src/imu_odom', '-DCMAKE_INSTALL_PREFIX=/home/geomatics_in_house_system/ros2_ws/install/imu_odom'], 'cwd': '/home/geomatics_in_house_system/ros2_ws/build/imu_odom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'geomatics_in_house_system'), ('SSH_CLIENT', '10.240.64.9 59632 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/geomatics_in_house_system'), ('OLDPWD', '/home/geomatics_in_house_system'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'geomatics_in_house_system'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/geomatics_in_house_system/ros2_ws/build/imu_odom'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.240.64.9 59632 10.240.39.210 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble')]), 'shell': False}
+[0.155479] (mapper_config_template) JobProgress: {'identifier': 'mapper_config_template', 'progress': 'cmake'}
+[0.163817] (mapper_config_template) JobProgress: {'identifier': 'mapper_config_template', 'progress': 'build'}
+[0.167507] (mapper_config_template) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template', '--', '-j4', '-l4'], 'cwd': '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'geomatics_in_house_system'), ('SSH_CLIENT', '10.240.64.9 59632 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/geomatics_in_house_system'), ('OLDPWD', '/home/geomatics_in_house_system'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'geomatics_in_house_system'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.240.64.9 59632 10.240.39.210 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble')]), 'shell': False}
+[0.198163] (-) TimerEvent: {}
+[0.300629] (-) TimerEvent: {}
+[0.401827] (-) TimerEvent: {}
+[0.503016] (-) TimerEvent: {}
+[0.597309] (mapper_config_template) CommandEnded: {'returncode': 0}
+[0.603578] (-) TimerEvent: {}
+[0.704713] (-) TimerEvent: {}
+[0.767732] (mapper_config_template) JobProgress: {'identifier': 'mapper_config_template', 'progress': 'install'}
+[0.805137] (-) TimerEvent: {}
+[0.821932] (mapper_config_template) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template'], 'cwd': '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'geomatics_in_house_system'), ('SSH_CLIENT', '10.240.64.9 59632 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/geomatics_in_house_system'), ('OLDPWD', '/home/geomatics_in_house_system'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'geomatics_in_house_system'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.240.64.9 59632 10.240.39.210 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble')]), 'shell': False}
+[0.871412] (mapper_config_template) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.872427] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/launch\n'}
+[0.873938] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/launch/mapper.launch\n'}
+[0.874667] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/params\n'}
+[0.877110] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/params/map_post_filters_config.yaml\n'}
+[0.878084] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/params/input_filters_config.yaml\n'}
+[0.879460] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/params/icp_config.yaml\n'}
+[0.879996] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/ament_index/resource_index/package_run_dependencies/mapper_config_template\n'}
+[0.882358] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/ament_index/resource_index/parent_prefix_path/mapper_config_template\n'}
+[0.883150] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/environment/ament_prefix_path.sh\n'}
+[0.883903] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/environment/ament_prefix_path.dsv\n'}
+[0.884629] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/environment/path.sh\n'}
+[0.886258] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/environment/path.dsv\n'}
+[0.887063] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/local_setup.bash\n'}
+[0.887897] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/local_setup.sh\n'}
+[0.888772] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/local_setup.zsh\n'}
+[0.889315] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/local_setup.dsv\n'}
+[0.890165] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.dsv\n'}
+[0.890685] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/ament_index/resource_index/packages/mapper_config_template\n'}
+[0.891070] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/cmake/mapper_config_templateConfig.cmake\n'}
+[0.891714] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/cmake/mapper_config_templateConfig-version.cmake\n'}
+[0.892429] (mapper_config_template) StdoutLine: {'line': b'-- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.xml\n'}
+[0.897446] (mapper_config_template) CommandEnded: {'returncode': 0}
+[0.905191] (-) TimerEvent: {}
+[1.007254] (-) TimerEvent: {}
+[1.042241] (geo_system) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.046177] (imu_odom) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.107672] (-) TimerEvent: {}
+[1.209872] (-) TimerEvent: {}
+[1.223109] (mapper_config_template) JobEnded: {'identifier': 'mapper_config_template', 'rc': 0}
+[1.310115] (-) TimerEvent: {}
+[1.411007] (-) TimerEvent: {}
+[1.511983] (-) TimerEvent: {}
+[1.613294] (-) TimerEvent: {}
+[1.714647] (-) TimerEvent: {}
+[1.815851] (-) TimerEvent: {}
+[1.826325] (geo_system) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.834053] (imu_odom) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.875798] (geo_system) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.876554] (imu_odom) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.916061] (-) TimerEvent: {}
+[2.016983] (-) TimerEvent: {}
+[2.136262] (-) TimerEvent: {}
+[2.237032] (-) TimerEvent: {}
+[2.338358] (-) TimerEvent: {}
+[2.367176] (geo_system) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.384425] (imu_odom) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.395106] (geo_system) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.410612] (geo_system) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.411425] (imu_odom) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.412005] (imu_odom) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.428699] (geo_system) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.429577] (imu_odom) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.438548] (-) TimerEvent: {}
+[2.539565] (-) TimerEvent: {}
+[2.542768] (imu_odom) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.543580] (geo_system) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.639634] (-) TimerEvent: {}
+[2.740391] (-) TimerEvent: {}
+[2.841174] (-) TimerEvent: {}
+[2.942151] (-) TimerEvent: {}
+[3.025701] (geo_system) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.042349] (-) TimerEvent: {}
+[3.043450] (imu_odom) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.052494] (geo_system) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.053559] (geo_system) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.055655] (geo_system) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.071487] (imu_odom) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.072423] (imu_odom) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.074145] (imu_odom) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.113858] (geo_system) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.114739] (imu_odom) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.142574] (-) TimerEvent: {}
+[3.243338] (-) TimerEvent: {}
+[3.344007] (-) TimerEvent: {}
+[3.444797] (-) TimerEvent: {}
+[3.545598] (-) TimerEvent: {}
+[3.647880] (-) TimerEvent: {}
+[3.749406] (-) TimerEvent: {}
+[3.851238] (-) TimerEvent: {}
+[3.952713] (-) TimerEvent: {}
+[4.053502] (-) TimerEvent: {}
+[4.154582] (-) TimerEvent: {}
+[4.161459] (imu_odom) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.206764] (geo_system) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.255905] (-) TimerEvent: {}
+[4.356593] (-) TimerEvent: {}
+[4.458625] (-) TimerEvent: {}
+[4.560846] (-) TimerEvent: {}
+[4.665366] (-) TimerEvent: {}
+[4.766793] (-) TimerEvent: {}
+[4.867541] (-) TimerEvent: {}
+[4.968391] (-) TimerEvent: {}
+[5.069304] (-) TimerEvent: {}
+[5.115563] (imu_odom) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.120499] (geo_system) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[5.169396] (-) TimerEvent: {}
+[5.270302] (-) TimerEvent: {}
+[5.371064] (-) TimerEvent: {}
+[5.471906] (-) TimerEvent: {}
+[5.572639] (-) TimerEvent: {}
+[5.611828] (geo_system) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.672828] (-) TimerEvent: {}
+[5.690270] (imu_odom) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.695139] (geo_system) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.767106] (imu_odom) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.773013] (-) TimerEvent: {}
+[5.800888] (geo_system) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.860630] (imu_odom) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.873209] (-) TimerEvent: {}
+[5.936926] (geo_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.973377] (-) TimerEvent: {}
+[5.984031] (imu_odom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.073737] (-) TimerEvent: {}
+[6.134014] (geo_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.162951] (imu_odom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.173828] (-) TimerEvent: {}
+[6.275307] (-) TimerEvent: {}
+[6.376885] (-) TimerEvent: {}
+[6.477755] (-) TimerEvent: {}
+[6.488884] (geo_system) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.577970] (-) TimerEvent: {}
+[6.678840] (-) TimerEvent: {}
+[6.779717] (-) TimerEvent: {}
+[6.845235] (imu_odom) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.880042] (-) TimerEvent: {}
+[6.900850] (imu_odom) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.922552] (geo_system) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.948868] (geo_system) StdoutLine: {'line': b'-- Generating done\n'}
+[6.954743] (geo_system) StdoutLine: {'line': b'-- Build files have been written to: /home/geomatics_in_house_system/ros2_ws/build/geo_system\n'}
+[6.973321] (geo_system) CommandEnded: {'returncode': 0}
+[6.975440] (geo_system) JobProgress: {'identifier': 'geo_system', 'progress': 'build'}
+[6.976539] (geo_system) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/geomatics_in_house_system/ros2_ws/build/geo_system', '--', '-j4', '-l4'], 'cwd': '/home/geomatics_in_house_system/ros2_ws/build/geo_system', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'geomatics_in_house_system'), ('SSH_CLIENT', '10.240.64.9 59632 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/geomatics_in_house_system'), ('OLDPWD', '/home/geomatics_in_house_system'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'geomatics_in_house_system'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/geomatics_in_house_system/ros2_ws/build/geo_system'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.240.64.9 59632 10.240.39.210 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble')]), 'shell': False}
+[6.983066] (-) TimerEvent: {}
+[7.083829] (-) TimerEvent: {}
+[7.184740] (-) TimerEvent: {}
+[7.208589] (geo_system) CommandEnded: {'returncode': 0}
+[7.284922] (-) TimerEvent: {}
+[7.355337] (geo_system) JobProgress: {'identifier': 'geo_system', 'progress': 'install'}
+[7.359345] (geo_system) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/geomatics_in_house_system/ros2_ws/build/geo_system'], 'cwd': '/home/geomatics_in_house_system/ros2_ws/build/geo_system', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'geomatics_in_house_system'), ('SSH_CLIENT', '10.240.64.9 59632 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/geomatics_in_house_system'), ('OLDPWD', '/home/geomatics_in_house_system'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'geomatics_in_house_system'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/geomatics_in_house_system/ros2_ws/build/geo_system'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.240.64.9 59632 10.240.39.210 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble')]), 'shell': False}
+[7.385164] (-) TimerEvent: {}
+[7.403618] (geo_system) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.404460] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//launch\n'}
+[7.405437] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//launch/record_all.launch.py\n'}
+[7.407084] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//launch/sensors.launch.py\n'}
+[7.408413] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//launch/description_launch.py\n'}
+[7.409568] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//config\n'}
+[7.410504] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//config/topics_to_record.yaml\n'}
+[7.411603] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//urdf\n'}
+[7.412434] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//urdf/geo_description.urdf.xacro\n'}
+[7.414563] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/ament_index/resource_index/package_run_dependencies/geo_system\n'}
+[7.416477] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/ament_index/resource_index/parent_prefix_path/geo_system\n'}
+[7.419462] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/environment/ament_prefix_path.sh\n'}
+[7.420821] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/environment/ament_prefix_path.dsv\n'}
+[7.422310] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/environment/path.sh\n'}
+[7.423668] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/environment/path.dsv\n'}
+[7.425106] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/local_setup.bash\n'}
+[7.426620] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/local_setup.sh\n'}
+[7.428089] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/local_setup.zsh\n'}
+[7.429500] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/local_setup.dsv\n'}
+[7.430984] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.dsv\n'}
+[7.432711] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/ament_index/resource_index/packages/geo_system\n'}
+[7.434393] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.435933] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/cmake/geo_systemConfig.cmake\n'}
+[7.437152] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/cmake/geo_systemConfig-version.cmake\n'}
+[7.438576] (geo_system) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.xml\n'}
+[7.453356] (geo_system) CommandEnded: {'returncode': 0}
+[7.485358] (-) TimerEvent: {}
+[7.586188] (-) TimerEvent: {}
+[7.663485] (geo_system) JobEnded: {'identifier': 'geo_system', 'rc': 0}
+[7.686408] (-) TimerEvent: {}
+[7.787132] (-) TimerEvent: {}
+[7.838476] (imu_odom) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.887312] (-) TimerEvent: {}
+[7.988135] (-) TimerEvent: {}
+[8.088888] (-) TimerEvent: {}
+[8.129285] (imu_odom) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.189046] (-) TimerEvent: {}
+[8.289784] (-) TimerEvent: {}
+[8.390525] (-) TimerEvent: {}
+[8.491474] (-) TimerEvent: {}
+[8.592471] (-) TimerEvent: {}
+[8.611299] (imu_odom) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.692647] (-) TimerEvent: {}
+[8.752744] (imu_odom) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.792845] (-) TimerEvent: {}
+[8.894271] (-) TimerEvent: {}
+[8.995277] (-) TimerEvent: {}
+[9.095984] (-) TimerEvent: {}
+[9.189628] (imu_odom) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.191643] (imu_odom) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.196143] (-) TimerEvent: {}
+[9.296902] (-) TimerEvent: {}
+[9.397613] (-) TimerEvent: {}
+[9.498434] (-) TimerEvent: {}
+[9.590070] (imu_odom) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.595732] (imu_odom) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.598595] (-) TimerEvent: {}
+[9.699245] (-) TimerEvent: {}
+[9.799962] (-) TimerEvent: {}
+[9.900673] (-) TimerEvent: {}
+[10.001380] (-) TimerEvent: {}
+[10.102149] (-) TimerEvent: {}
+[10.202887] (-) TimerEvent: {}
+[10.303604] (-) TimerEvent: {}
+[10.404291] (-) TimerEvent: {}
+[10.430758] (imu_odom) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.504476] (-) TimerEvent: {}
+[10.605278] (-) TimerEvent: {}
+[10.705988] (-) TimerEvent: {}
+[10.806660] (-) TimerEvent: {}
+[10.907341] (-) TimerEvent: {}
+[11.008043] (-) TimerEvent: {}
+[11.031927] (imu_odom) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[11.108216] (-) TimerEvent: {}
+[11.209005] (-) TimerEvent: {}
+[11.279679] (imu_odom) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[11.286850] (imu_odom) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[11.287592] (imu_odom) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[11.309176] (-) TimerEvent: {}
+[11.409986] (-) TimerEvent: {}
+[11.510713] (-) TimerEvent: {}
+[11.611492] (-) TimerEvent: {}
+[11.712270] (-) TimerEvent: {}
+[11.813096] (-) TimerEvent: {}
+[11.913843] (-) TimerEvent: {}
+[12.014548] (-) TimerEvent: {}
+[12.115620] (-) TimerEvent: {}
+[12.216356] (-) TimerEvent: {}
+[12.317042] (-) TimerEvent: {}
+[12.417932] (-) TimerEvent: {}
+[12.518743] (-) TimerEvent: {}
+[12.619461] (-) TimerEvent: {}
+[12.720194] (-) TimerEvent: {}
+[12.821027] (-) TimerEvent: {}
+[12.921854] (-) TimerEvent: {}
+[13.022536] (-) TimerEvent: {}
+[13.123247] (-) TimerEvent: {}
+[13.223920] (-) TimerEvent: {}
+[13.298839] (imu_odom) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[13.324105] (-) TimerEvent: {}
+[13.424807] (-) TimerEvent: {}
+[13.525534] (-) TimerEvent: {}
+[13.626335] (-) TimerEvent: {}
+[13.727077] (-) TimerEvent: {}
+[13.827751] (-) TimerEvent: {}
+[13.928715] (-) TimerEvent: {}
+[13.972297] (imu_odom) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.028788] (-) TimerEvent: {}
+[14.056810] (imu_odom) StdoutLine: {'line': b'-- Generating done\n'}
+[14.064838] (imu_odom) StdoutLine: {'line': b'-- Build files have been written to: /home/geomatics_in_house_system/ros2_ws/build/imu_odom\n'}
+[14.108000] (imu_odom) CommandEnded: {'returncode': 0}
+[14.109891] (imu_odom) JobProgress: {'identifier': 'imu_odom', 'progress': 'build'}
+[14.113228] (imu_odom) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/geomatics_in_house_system/ros2_ws/build/imu_odom', '--', '-j4', '-l4'], 'cwd': '/home/geomatics_in_house_system/ros2_ws/build/imu_odom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'geomatics_in_house_system'), ('SSH_CLIENT', '10.240.64.9 59632 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/geomatics_in_house_system'), ('OLDPWD', '/home/geomatics_in_house_system'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'geomatics_in_house_system'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/geomatics_in_house_system/ros2_ws/build/imu_odom'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.240.64.9 59632 10.240.39.210 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble')]), 'shell': False}
+[14.128998] (-) TimerEvent: {}
+[14.229976] (-) TimerEvent: {}
+[14.330836] (-) TimerEvent: {}
+[14.393943] (imu_odom) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/imu_odom_node.dir/src/imu_odom_node.cpp.o\x1b[0m\n'}
+[14.431010] (-) TimerEvent: {}
+[14.532320] (-) TimerEvent: {}
+[14.633111] (-) TimerEvent: {}
+[14.733963] (-) TimerEvent: {}
+[14.834759] (-) TimerEvent: {}
+[14.935554] (-) TimerEvent: {}
+[15.036334] (-) TimerEvent: {}
+[15.137119] (-) TimerEvent: {}
+[15.237963] (-) TimerEvent: {}
+[15.338859] (-) TimerEvent: {}
+[15.439752] (-) TimerEvent: {}
+[15.540580] (-) TimerEvent: {}
+[15.641395] (-) TimerEvent: {}
+[15.742236] (-) TimerEvent: {}
+[15.843224] (-) TimerEvent: {}
+[15.944049] (-) TimerEvent: {}
+[16.044878] (-) TimerEvent: {}
+[16.145679] (-) TimerEvent: {}
+[16.246599] (-) TimerEvent: {}
+[16.347464] (-) TimerEvent: {}
+[16.448354] (-) TimerEvent: {}
+[16.549142] (-) TimerEvent: {}
+[16.649997] (-) TimerEvent: {}
+[16.750896] (-) TimerEvent: {}
+[16.851796] (-) TimerEvent: {}
+[16.952588] (-) TimerEvent: {}
+[17.053345] (-) TimerEvent: {}
+[17.154134] (-) TimerEvent: {}
+[17.254880] (-) TimerEvent: {}
+[17.355750] (-) TimerEvent: {}
+[17.456630] (-) TimerEvent: {}
+[17.557579] (-) TimerEvent: {}
+[17.658795] (-) TimerEvent: {}
+[17.760075] (-) TimerEvent: {}
+[17.861019] (-) TimerEvent: {}
+[17.961965] (-) TimerEvent: {}
+[18.062944] (-) TimerEvent: {}
+[18.163709] (-) TimerEvent: {}
+[18.264542] (-) TimerEvent: {}
+[18.365504] (-) TimerEvent: {}
+[18.466431] (-) TimerEvent: {}
+[18.567261] (-) TimerEvent: {}
+[18.668122] (-) TimerEvent: {}
+[18.769009] (-) TimerEvent: {}
+[18.869873] (-) TimerEvent: {}
+[18.970606] (-) TimerEvent: {}
+[19.071340] (-) TimerEvent: {}
+[19.172260] (-) TimerEvent: {}
+[19.273082] (-) TimerEvent: {}
+[19.373891] (-) TimerEvent: {}
+[19.474867] (-) TimerEvent: {}
+[19.575808] (-) TimerEvent: {}
+[19.676625] (-) TimerEvent: {}
+[19.777429] (-) TimerEvent: {}
+[19.878297] (-) TimerEvent: {}
+[19.979199] (-) TimerEvent: {}
+[20.080008] (-) TimerEvent: {}
+[20.180855] (-) TimerEvent: {}
+[20.281748] (-) TimerEvent: {}
+[20.382527] (-) TimerEvent: {}
+[20.483341] (-) TimerEvent: {}
+[20.584232] (-) TimerEvent: {}
+[20.685087] (-) TimerEvent: {}
+[20.785999] (-) TimerEvent: {}
+[20.886880] (-) TimerEvent: {}
+[20.987612] (-) TimerEvent: {}
+[21.088301] (-) TimerEvent: {}
+[21.189182] (-) TimerEvent: {}
+[21.290088] (-) TimerEvent: {}
+[21.390934] (-) TimerEvent: {}
+[21.491817] (-) TimerEvent: {}
+[21.592710] (-) TimerEvent: {}
+[21.693694] (-) TimerEvent: {}
+[21.794505] (-) TimerEvent: {}
+[21.895348] (-) TimerEvent: {}
+[21.996073] (-) TimerEvent: {}
+[22.096998] (-) TimerEvent: {}
+[22.198439] (-) TimerEvent: {}
+[22.299195] (-) TimerEvent: {}
+[22.399995] (-) TimerEvent: {}
+[22.500871] (-) TimerEvent: {}
+[22.601736] (-) TimerEvent: {}
+[22.702546] (-) TimerEvent: {}
+[22.803351] (-) TimerEvent: {}
+[22.904205] (-) TimerEvent: {}
+[23.004955] (-) TimerEvent: {}
+[23.105820] (-) TimerEvent: {}
+[23.206652] (-) TimerEvent: {}
+[23.307525] (-) TimerEvent: {}
+[23.408896] (-) TimerEvent: {}
+[23.509996] (-) TimerEvent: {}
+[23.610794] (-) TimerEvent: {}
+[23.711788] (-) TimerEvent: {}
+[23.812666] (-) TimerEvent: {}
+[23.913487] (-) TimerEvent: {}
+[24.014385] (-) TimerEvent: {}
+[24.115231] (-) TimerEvent: {}
+[24.216165] (-) TimerEvent: {}
+[24.317043] (-) TimerEvent: {}
+[24.417896] (-) TimerEvent: {}
+[24.518819] (-) TimerEvent: {}
+[24.619686] (-) TimerEvent: {}
+[24.720503] (-) TimerEvent: {}
+[24.821338] (-) TimerEvent: {}
+[24.922207] (-) TimerEvent: {}
+[25.023140] (-) TimerEvent: {}
+[25.124066] (-) TimerEvent: {}
+[25.224920] (-) TimerEvent: {}
+[25.325783] (-) TimerEvent: {}
+[25.426616] (-) TimerEvent: {}
+[25.527379] (-) TimerEvent: {}
+[25.628207] (-) TimerEvent: {}
+[25.729061] (-) TimerEvent: {}
+[25.829942] (-) TimerEvent: {}
+[25.930821] (-) TimerEvent: {}
+[26.031618] (-) TimerEvent: {}
+[26.132448] (-) TimerEvent: {}
+[26.233294] (-) TimerEvent: {}
+[26.334241] (-) TimerEvent: {}
+[26.435070] (-) TimerEvent: {}
+[26.535981] (-) TimerEvent: {}
+[26.636801] (-) TimerEvent: {}
+[26.737623] (-) TimerEvent: {}
+[26.838627] (-) TimerEvent: {}
+[26.939394] (-) TimerEvent: {}
+[27.040187] (-) TimerEvent: {}
+[27.141049] (-) TimerEvent: {}
+[27.242075] (-) TimerEvent: {}
+[27.342841] (-) TimerEvent: {}
+[27.443689] (-) TimerEvent: {}
+[27.544519] (-) TimerEvent: {}
+[27.645316] (-) TimerEvent: {}
+[27.746191] (-) TimerEvent: {}
+[27.847045] (-) TimerEvent: {}
+[27.947895] (-) TimerEvent: {}
+[28.048773] (-) TimerEvent: {}
+[28.149783] (-) TimerEvent: {}
+[28.250756] (-) TimerEvent: {}
+[28.351571] (-) TimerEvent: {}
+[28.452420] (-) TimerEvent: {}
+[28.553225] (-) TimerEvent: {}
+[28.654162] (-) TimerEvent: {}
+[28.754976] (-) TimerEvent: {}
+[28.855729] (-) TimerEvent: {}
+[28.956581] (-) TimerEvent: {}
+[29.057582] (-) TimerEvent: {}
+[29.158519] (-) TimerEvent: {}
+[29.259338] (-) TimerEvent: {}
+[29.360182] (-) TimerEvent: {}
+[29.461052] (-) TimerEvent: {}
+[29.561900] (-) TimerEvent: {}
+[29.662695] (-) TimerEvent: {}
+[29.763459] (-) TimerEvent: {}
+[29.864282] (-) TimerEvent: {}
+[29.965184] (-) TimerEvent: {}
+[30.066151] (-) TimerEvent: {}
+[30.167074] (-) TimerEvent: {}
+[30.267939] (-) TimerEvent: {}
+[30.368796] (-) TimerEvent: {}
+[30.469688] (-) TimerEvent: {}
+[30.570452] (-) TimerEvent: {}
+[30.671263] (-) TimerEvent: {}
+[30.772055] (-) TimerEvent: {}
+[30.872843] (-) TimerEvent: {}
+[30.973619] (-) TimerEvent: {}
+[31.074515] (-) TimerEvent: {}
+[31.175367] (-) TimerEvent: {}
+[31.276244] (-) TimerEvent: {}
+[31.377087] (-) TimerEvent: {}
+[31.477949] (-) TimerEvent: {}
+[31.578801] (-) TimerEvent: {}
+[31.679747] (-) TimerEvent: {}
+[31.780738] (-) TimerEvent: {}
+[31.881495] (-) TimerEvent: {}
+[31.982548] (-) TimerEvent: {}
+[32.083361] (-) TimerEvent: {}
+[32.184148] (-) TimerEvent: {}
+[32.284926] (-) TimerEvent: {}
+[32.385763] (-) TimerEvent: {}
+[32.486506] (-) TimerEvent: {}
+[32.587230] (-) TimerEvent: {}
+[32.688052] (-) TimerEvent: {}
+[32.788804] (-) TimerEvent: {}
+[32.889589] (-) TimerEvent: {}
+[32.990411] (-) TimerEvent: {}
+[33.091186] (-) TimerEvent: {}
+[33.191925] (-) TimerEvent: {}
+[33.292789] (-) TimerEvent: {}
+[33.393547] (-) TimerEvent: {}
+[33.494464] (-) TimerEvent: {}
+[33.595214] (-) TimerEvent: {}
+[33.696027] (-) TimerEvent: {}
+[33.796886] (-) TimerEvent: {}
+[33.897760] (-) TimerEvent: {}
+[33.998583] (-) TimerEvent: {}
+[34.099325] (-) TimerEvent: {}
+[34.200185] (-) TimerEvent: {}
+[34.301011] (-) TimerEvent: {}
+[34.401865] (-) TimerEvent: {}
+[34.502697] (-) TimerEvent: {}
+[34.603475] (-) TimerEvent: {}
+[34.704328] (-) TimerEvent: {}
+[34.805129] (-) TimerEvent: {}
+[34.905957] (-) TimerEvent: {}
+[35.006815] (-) TimerEvent: {}
+[35.107726] (-) TimerEvent: {}
+[35.208508] (-) TimerEvent: {}
+[35.309330] (-) TimerEvent: {}
+[35.410212] (-) TimerEvent: {}
+[35.511031] (-) TimerEvent: {}
+[35.611855] (-) TimerEvent: {}
+[35.712680] (-) TimerEvent: {}
+[35.813540] (-) TimerEvent: {}
+[35.914415] (-) TimerEvent: {}
+[36.015284] (-) TimerEvent: {}
+[36.116212] (-) TimerEvent: {}
+[36.217094] (-) TimerEvent: {}
+[36.318012] (-) TimerEvent: {}
+[36.418953] (-) TimerEvent: {}
+[36.519853] (-) TimerEvent: {}
+[36.620709] (-) TimerEvent: {}
+[36.721496] (-) TimerEvent: {}
+[36.822419] (-) TimerEvent: {}
+[36.923226] (-) TimerEvent: {}
+[37.024045] (-) TimerEvent: {}
+[37.124895] (-) TimerEvent: {}
+[37.225859] (-) TimerEvent: {}
+[37.326704] (-) TimerEvent: {}
+[37.427708] (-) TimerEvent: {}
+[37.528542] (-) TimerEvent: {}
+[37.629391] (-) TimerEvent: {}
+[37.730216] (-) TimerEvent: {}
+[37.830960] (-) TimerEvent: {}
+[37.931748] (-) TimerEvent: {}
+[38.032624] (-) TimerEvent: {}
+[38.133531] (-) TimerEvent: {}
+[38.234459] (-) TimerEvent: {}
+[38.335259] (-) TimerEvent: {}
+[38.436070] (-) TimerEvent: {}
+[38.536856] (-) TimerEvent: {}
+[38.637731] (-) TimerEvent: {}
+[38.738636] (-) TimerEvent: {}
+[38.839445] (-) TimerEvent: {}
+[38.940260] (-) TimerEvent: {}
+[39.041257] (-) TimerEvent: {}
+[39.142355] (-) TimerEvent: {}
+[39.243188] (-) TimerEvent: {}
+[39.343969] (-) TimerEvent: {}
+[39.444765] (-) TimerEvent: {}
+[39.545542] (-) TimerEvent: {}
+[39.646496] (-) TimerEvent: {}
+[39.747378] (-) TimerEvent: {}
+[39.848244] (-) TimerEvent: {}
+[39.949111] (-) TimerEvent: {}
+[40.050029] (-) TimerEvent: {}
+[40.150890] (-) TimerEvent: {}
+[40.251797] (-) TimerEvent: {}
+[40.352655] (-) TimerEvent: {}
+[40.453687] (-) TimerEvent: {}
+[40.554624] (-) TimerEvent: {}
+[40.655427] (-) TimerEvent: {}
+[40.756410] (-) TimerEvent: {}
+[40.857342] (-) TimerEvent: {}
+[40.958244] (-) TimerEvent: {}
+[41.059080] (-) TimerEvent: {}
+[41.159919] (-) TimerEvent: {}
+[41.260686] (-) TimerEvent: {}
+[41.361534] (-) TimerEvent: {}
+[41.462415] (-) TimerEvent: {}
+[41.563178] (-) TimerEvent: {}
+[41.664033] (-) TimerEvent: {}
+[41.764803] (-) TimerEvent: {}
+[41.865708] (-) TimerEvent: {}
+[41.966633] (-) TimerEvent: {}
+[42.067375] (-) TimerEvent: {}
+[42.168218] (-) TimerEvent: {}
+[42.269061] (-) TimerEvent: {}
+[42.369834] (-) TimerEvent: {}
+[42.470646] (-) TimerEvent: {}
+[42.571500] (-) TimerEvent: {}
+[42.672331] (-) TimerEvent: {}
+[42.773154] (-) TimerEvent: {}
+[42.874320] (-) TimerEvent: {}
+[42.975757] (-) TimerEvent: {}
+[43.077154] (-) TimerEvent: {}
+[43.177926] (-) TimerEvent: {}
+[43.278844] (-) TimerEvent: {}
+[43.379590] (-) TimerEvent: {}
+[43.480336] (-) TimerEvent: {}
+[43.581051] (-) TimerEvent: {}
+[43.681812] (-) TimerEvent: {}
+[43.782553] (-) TimerEvent: {}
+[43.883368] (-) TimerEvent: {}
+[43.984224] (-) TimerEvent: {}
+[44.085006] (-) TimerEvent: {}
+[44.185813] (-) TimerEvent: {}
+[44.286571] (-) TimerEvent: {}
+[44.387337] (-) TimerEvent: {}
+[44.488197] (-) TimerEvent: {}
+[44.589025] (-) TimerEvent: {}
+[44.689820] (-) TimerEvent: {}
+[44.790575] (-) TimerEvent: {}
+[44.891336] (-) TimerEvent: {}
+[44.992330] (-) TimerEvent: {}
+[45.093785] (-) TimerEvent: {}
+[45.194586] (-) TimerEvent: {}
+[45.295435] (-) TimerEvent: {}
+[45.396268] (-) TimerEvent: {}
+[45.497092] (-) TimerEvent: {}
+[45.597912] (-) TimerEvent: {}
+[45.698674] (-) TimerEvent: {}
+[45.799590] (-) TimerEvent: {}
+[45.900739] (-) TimerEvent: {}
+[46.001857] (-) TimerEvent: {}
+[46.102874] (-) TimerEvent: {}
+[46.203962] (-) TimerEvent: {}
+[46.304968] (-) TimerEvent: {}
+[46.405830] (-) TimerEvent: {}
+[46.506660] (-) TimerEvent: {}
+[46.607404] (-) TimerEvent: {}
+[46.708149] (-) TimerEvent: {}
+[46.808964] (-) TimerEvent: {}
+[46.909815] (-) TimerEvent: {}
+[47.010666] (-) TimerEvent: {}
+[47.111464] (-) TimerEvent: {}
+[47.212287] (-) TimerEvent: {}
+[47.313078] (-) TimerEvent: {}
+[47.413914] (-) TimerEvent: {}
+[47.514667] (-) TimerEvent: {}
+[47.615468] (-) TimerEvent: {}
+[47.716282] (-) TimerEvent: {}
+[47.817157] (-) TimerEvent: {}
+[47.917961] (-) TimerEvent: {}
+[48.018851] (-) TimerEvent: {}
+[48.119645] (-) TimerEvent: {}
+[48.220490] (-) TimerEvent: {}
+[48.321315] (-) TimerEvent: {}
+[48.422157] (-) TimerEvent: {}
+[48.522924] (-) TimerEvent: {}
+[48.623688] (-) TimerEvent: {}
+[48.724438] (-) TimerEvent: {}
+[48.825220] (-) TimerEvent: {}
+[48.926030] (-) TimerEvent: {}
+[49.026775] (-) TimerEvent: {}
+[49.127538] (-) TimerEvent: {}
+[49.228340] (-) TimerEvent: {}
+[49.329107] (-) TimerEvent: {}
+[49.429875] (-) TimerEvent: {}
+[49.530719] (-) TimerEvent: {}
+[49.631521] (-) TimerEvent: {}
+[49.732398] (-) TimerEvent: {}
+[49.833165] (-) TimerEvent: {}
+[49.934031] (-) TimerEvent: {}
+[50.034846] (-) TimerEvent: {}
+[50.135742] (-) TimerEvent: {}
+[50.236556] (-) TimerEvent: {}
+[50.337418] (-) TimerEvent: {}
+[50.438325] (-) TimerEvent: {}
+[50.539112] (-) TimerEvent: {}
+[50.639913] (-) TimerEvent: {}
+[50.740690] (-) TimerEvent: {}
+[50.841521] (-) TimerEvent: {}
+[50.942508] (-) TimerEvent: {}
+[51.043282] (-) TimerEvent: {}
+[51.144115] (-) TimerEvent: {}
+[51.244973] (-) TimerEvent: {}
+[51.345777] (-) TimerEvent: {}
+[51.446581] (-) TimerEvent: {}
+[51.547369] (-) TimerEvent: {}
+[51.648168] (-) TimerEvent: {}
+[51.748873] (-) TimerEvent: {}
+[51.849761] (-) TimerEvent: {}
+[51.950636] (-) TimerEvent: {}
+[52.051472] (-) TimerEvent: {}
+[52.152329] (-) TimerEvent: {}
+[52.253101] (-) TimerEvent: {}
+[52.354033] (-) TimerEvent: {}
+[52.454979] (-) TimerEvent: {}
+[52.555831] (-) TimerEvent: {}
+[52.656678] (-) TimerEvent: {}
+[52.757543] (-) TimerEvent: {}
+[52.858382] (-) TimerEvent: {}
+[52.959233] (-) TimerEvent: {}
+[53.060120] (-) TimerEvent: {}
+[53.160914] (-) TimerEvent: {}
+[53.261951] (-) TimerEvent: {}
+[53.362802] (-) TimerEvent: {}
+[53.463751] (-) TimerEvent: {}
+[53.564643] (-) TimerEvent: {}
+[53.665496] (-) TimerEvent: {}
+[53.766438] (-) TimerEvent: {}
+[53.867330] (-) TimerEvent: {}
+[53.968287] (-) TimerEvent: {}
+[54.069215] (-) TimerEvent: {}
+[54.170035] (-) TimerEvent: {}
+[54.270835] (-) TimerEvent: {}
+[54.371608] (-) TimerEvent: {}
+[54.472488] (-) TimerEvent: {}
+[54.573452] (-) TimerEvent: {}
+[54.674456] (-) TimerEvent: {}
+[54.775285] (-) TimerEvent: {}
+[54.876148] (-) TimerEvent: {}
+[54.976903] (-) TimerEvent: {}
+[55.077891] (-) TimerEvent: {}
+[55.178721] (-) TimerEvent: {}
+[55.279462] (-) TimerEvent: {}
+[55.380500] (-) TimerEvent: {}
+[55.481205] (-) TimerEvent: {}
+[55.582229] (-) TimerEvent: {}
+[55.683071] (-) TimerEvent: {}
+[55.783999] (-) TimerEvent: {}
+[55.884900] (-) TimerEvent: {}
+[55.985748] (-) TimerEvent: {}
+[56.086615] (-) TimerEvent: {}
+[56.187487] (-) TimerEvent: {}
+[56.288361] (-) TimerEvent: {}
+[56.389213] (-) TimerEvent: {}
+[56.490042] (-) TimerEvent: {}
+[56.590888] (-) TimerEvent: {}
+[56.691729] (-) TimerEvent: {}
+[56.792499] (-) TimerEvent: {}
+[56.893362] (-) TimerEvent: {}
+[56.994333] (-) TimerEvent: {}
+[57.095182] (-) TimerEvent: {}
+[57.196044] (-) TimerEvent: {}
+[57.296896] (-) TimerEvent: {}
+[57.397840] (-) TimerEvent: {}
+[57.498637] (-) TimerEvent: {}
+[57.599437] (-) TimerEvent: {}
+[57.700362] (-) TimerEvent: {}
+[57.801230] (-) TimerEvent: {}
+[57.902085] (-) TimerEvent: {}
+[58.002938] (-) TimerEvent: {}
+[58.103696] (-) TimerEvent: {}
+[58.204526] (-) TimerEvent: {}
+[58.305304] (-) TimerEvent: {}
+[58.406155] (-) TimerEvent: {}
+[58.506939] (-) TimerEvent: {}
+[58.607754] (-) TimerEvent: {}
+[58.708617] (-) TimerEvent: {}
+[58.809392] (-) TimerEvent: {}
+[58.910231] (-) TimerEvent: {}
+[59.011072] (-) TimerEvent: {}
+[59.111932] (-) TimerEvent: {}
+[59.212693] (-) TimerEvent: {}
+[59.313590] (-) TimerEvent: {}
+[59.414542] (-) TimerEvent: {}
+[59.515474] (-) TimerEvent: {}
+[59.616399] (-) TimerEvent: {}
+[59.717321] (-) TimerEvent: {}
+[59.818424] (-) TimerEvent: {}
+[59.919236] (-) TimerEvent: {}
+[60.020054] (-) TimerEvent: {}
+[60.120890] (-) TimerEvent: {}
+[60.221799] (-) TimerEvent: {}
+[60.322667] (-) TimerEvent: {}
+[60.423500] (-) TimerEvent: {}
+[60.524423] (-) TimerEvent: {}
+[60.625224] (-) TimerEvent: {}
+[60.726143] (-) TimerEvent: {}
+[60.827037] (-) TimerEvent: {}
+[60.927982] (-) TimerEvent: {}
+[61.028772] (-) TimerEvent: {}
+[61.129612] (-) TimerEvent: {}
+[61.230525] (-) TimerEvent: {}
+[61.331324] (-) TimerEvent: {}
+[61.432156] (-) TimerEvent: {}
+[61.532973] (-) TimerEvent: {}
+[61.633869] (-) TimerEvent: {}
+[61.734710] (-) TimerEvent: {}
+[61.835487] (-) TimerEvent: {}
+[61.936249] (-) TimerEvent: {}
+[62.037069] (-) TimerEvent: {}
+[62.137991] (-) TimerEvent: {}
+[62.238935] (-) TimerEvent: {}
+[62.339718] (-) TimerEvent: {}
+[62.440639] (-) TimerEvent: {}
+[62.541375] (-) TimerEvent: {}
+[62.642330] (-) TimerEvent: {}
+[62.743178] (-) TimerEvent: {}
+[62.844044] (-) TimerEvent: {}
+[62.944835] (-) TimerEvent: {}
+[63.045794] (-) TimerEvent: {}
+[63.146694] (-) TimerEvent: {}
+[63.247552] (-) TimerEvent: {}
+[63.348396] (-) TimerEvent: {}
+[63.449224] (-) TimerEvent: {}
+[63.550110] (-) TimerEvent: {}
+[63.650883] (-) TimerEvent: {}
+[63.751770] (-) TimerEvent: {}
+[63.852741] (-) TimerEvent: {}
+[63.954332] (-) TimerEvent: {}
+[64.055347] (-) TimerEvent: {}
+[64.156546] (-) TimerEvent: {}
+[64.257749] (-) TimerEvent: {}
+[64.358613] (-) TimerEvent: {}
+[64.459980] (-) TimerEvent: {}
+[64.560687] (-) TimerEvent: {}
+[64.661420] (-) TimerEvent: {}
+[64.762171] (-) TimerEvent: {}
+[64.862861] (-) TimerEvent: {}
+[64.963575] (-) TimerEvent: {}
+[65.064355] (-) TimerEvent: {}
+[65.165119] (-) TimerEvent: {}
+[65.265849] (-) TimerEvent: {}
+[65.366567] (-) TimerEvent: {}
+[65.467391] (-) TimerEvent: {}
+[65.568372] (-) TimerEvent: {}
+[65.669095] (-) TimerEvent: {}
+[65.769853] (-) TimerEvent: {}
+[65.870632] (-) TimerEvent: {}
+[65.971405] (-) TimerEvent: {}
+[66.072255] (-) TimerEvent: {}
+[66.173062] (-) TimerEvent: {}
+[66.273834] (-) TimerEvent: {}
+[66.374581] (-) TimerEvent: {}
+[66.475316] (-) TimerEvent: {}
+[66.576103] (-) TimerEvent: {}
+[66.676926] (-) TimerEvent: {}
+[66.777711] (-) TimerEvent: {}
+[66.878472] (-) TimerEvent: {}
+[66.979235] (-) TimerEvent: {}
+[67.080018] (-) TimerEvent: {}
+[67.180806] (-) TimerEvent: {}
+[67.281704] (-) TimerEvent: {}
+[67.383050] (-) TimerEvent: {}
+[67.485353] (-) TimerEvent: {}
+[67.586326] (-) TimerEvent: {}
+[67.687327] (-) TimerEvent: {}
+[67.788174] (-) TimerEvent: {}
+[67.889177] (-) TimerEvent: {}
+[67.990234] (-) TimerEvent: {}
+[68.091190] (-) TimerEvent: {}
+[68.192220] (-) TimerEvent: {}
+[68.292938] (-) TimerEvent: {}
+[68.393952] (-) TimerEvent: {}
+[68.493167] (imu_odom) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_odom_node\x1b[0m\n'}
+[68.494017] (-) TimerEvent: {}
+[68.594819] (-) TimerEvent: {}
+[68.695745] (-) TimerEvent: {}
+[68.796633] (-) TimerEvent: {}
+[68.898255] (-) TimerEvent: {}
+[68.999463] (-) TimerEvent: {}
+[69.100818] (-) TimerEvent: {}
+[69.201822] (-) TimerEvent: {}
+[69.302871] (-) TimerEvent: {}
+[69.404261] (-) TimerEvent: {}
+[69.505612] (-) TimerEvent: {}
+[69.607061] (-) TimerEvent: {}
+[69.708358] (-) TimerEvent: {}
+[69.809305] (-) TimerEvent: {}
+[69.910730] (-) TimerEvent: {}
+[70.012159] (-) TimerEvent: {}
+[70.113194] (-) TimerEvent: {}
+[70.214183] (-) TimerEvent: {}
+[70.315281] (-) TimerEvent: {}
+[70.416534] (-) TimerEvent: {}
+[70.517345] (-) TimerEvent: {}
+[70.618222] (-) TimerEvent: {}
+[70.718974] (-) TimerEvent: {}
+[70.819644] (-) TimerEvent: {}
+[70.920325] (-) TimerEvent: {}
+[71.021037] (-) TimerEvent: {}
+[71.121958] (-) TimerEvent: {}
+[71.223207] (-) TimerEvent: {}
+[71.324060] (-) TimerEvent: {}
+[71.424855] (-) TimerEvent: {}
+[71.525899] (-) TimerEvent: {}
+[71.627218] (-) TimerEvent: {}
+[71.727943] (-) TimerEvent: {}
+[71.828686] (-) TimerEvent: {}
+[71.911702] (imu_odom) StdoutLine: {'line': b'[100%] Built target imu_odom_node\n'}
+[71.928956] (-) TimerEvent: {}
+[71.968931] (imu_odom) CommandEnded: {'returncode': 0}
+[72.029196] (-) TimerEvent: {}
+[72.130138] (-) TimerEvent: {}
+[72.144555] (imu_odom) JobProgress: {'identifier': 'imu_odom', 'progress': 'install'}
+[72.147839] (imu_odom) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/geomatics_in_house_system/ros2_ws/build/imu_odom'], 'cwd': '/home/geomatics_in_house_system/ros2_ws/build/imu_odom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'geomatics_in_house_system'), ('SSH_CLIENT', '10.240.64.9 59632 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/geomatics_in_house_system'), ('OLDPWD', '/home/geomatics_in_house_system'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'geomatics_in_house_system'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/geomatics_in_house_system/ros2_ws/build/imu_odom'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.240.64.9 59632 10.240.39.210 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/opt/ros/humble')]), 'shell': False}
+[72.189707] (imu_odom) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[72.190510] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib/imu_odom/imu_odom_node\n'}
+[72.230387] (-) TimerEvent: {}
+[72.232630] (imu_odom) StdoutLine: {'line': b'-- Set runtime path of "/home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib/imu_odom/imu_odom_node" to ""\n'}
+[72.233789] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/ament_index/resource_index/package_run_dependencies/imu_odom\n'}
+[72.235639] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/ament_index/resource_index/parent_prefix_path/imu_odom\n'}
+[72.237390] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/environment/ament_prefix_path.sh\n'}
+[72.238711] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/environment/ament_prefix_path.dsv\n'}
+[72.240035] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/environment/path.sh\n'}
+[72.241287] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/environment/path.dsv\n'}
+[72.242523] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/local_setup.bash\n'}
+[72.243943] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/local_setup.sh\n'}
+[72.245261] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/local_setup.zsh\n'}
+[72.246475] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/local_setup.dsv\n'}
+[72.247920] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.dsv\n'}
+[72.249494] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/ament_index/resource_index/packages/imu_odom\n'}
+[72.252540] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/cmake/imu_odomConfig.cmake\n'}
+[72.253647] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/cmake/imu_odomConfig-version.cmake\n'}
+[72.255021] (imu_odom) StdoutLine: {'line': b'-- Installing: /home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.xml\n'}
+[72.261004] (imu_odom) CommandEnded: {'returncode': 0}
+[72.330609] (-) TimerEvent: {}
+[72.431372] (-) TimerEvent: {}
+[72.483926] (imu_odom) JobEnded: {'identifier': 'imu_odom', 'rc': 0}
+[72.487287] (-) EventReactorShutdown: {}

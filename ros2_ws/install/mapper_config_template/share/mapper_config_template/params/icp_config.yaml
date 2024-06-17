@@ -1,0 +1,44 @@
+readingDataPointsFilters:
+  - RandomSamplingDataPointsFilter:
+      prob: 0.75
+
+referenceDataPointsFilters:
+  - SamplingSurfaceNormalDataPointsFilter:
+      ratio: 0.5
+      knn: 7
+      samplingMethod: 0
+      maxBoxDim: inf
+      averageExistingDescriptors: 1
+      keepNormals: 1
+      keepDensities: 0
+      keepEigenValues: 0
+      keepEigenVectors: 0
+
+outlierFilters:
+  - TrimmedDistOutlierFilter:
+      ratio: 0.85
+
+matcher:
+  KDTreeMatcher:
+      knn: 1
+      epsilon: 0
+      searchType: 1
+      maxDist: inf
+
+errorMinimizer:
+  PointToPlaneErrorMinimizer:
+      force2D: 0
+
+transformationCheckers:
+  - CounterTransformationChecker:
+      maxIterationCount: 40
+  - DifferentialTransformationChecker:
+      minDiffRotErr: 0.001
+      minDiffTransErr: 0.001
+      smoothLength: 3
+
+inspector:
+  NullInspector
+
+logger:
+  NullLogger

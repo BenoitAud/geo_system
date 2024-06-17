@@ -1,0 +1,30 @@
+[0.311s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/geo_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/geo_system -- -j4 -l4
+[1.192s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/geo_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/geo_system -- -j4 -l4
+[1.977s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/geo_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/geo_system
+[2.213s] -- Install configuration: ""
+[2.213s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//launch
+[2.214s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//launch/mapping.launch.py
+[2.215s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//launch/record_all.launch.py
+[2.216s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//launch/sensors.launch.py
+[2.217s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//launch/description_launch.py
+[2.218s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//config
+[2.218s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//config/topics_to_record.yaml
+[2.219s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//urdf
+[2.220s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system//urdf/geo_description.urdf.xacro
+[2.222s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/ament_index/resource_index/package_run_dependencies/geo_system
+[2.223s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/ament_index/resource_index/parent_prefix_path/geo_system
+[2.224s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/environment/ament_prefix_path.sh
+[2.231s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/environment/ament_prefix_path.dsv
+[2.233s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/environment/path.sh
+[2.234s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/environment/path.dsv
+[2.236s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/local_setup.bash
+[2.237s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/local_setup.sh
+[2.239s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/local_setup.zsh
+[2.240s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/local_setup.dsv
+[2.241s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.dsv
+[2.242s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/ament_index/resource_index/packages/geo_system
+[2.242s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.243s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/cmake/geo_systemConfig.cmake
+[2.244s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/cmake/geo_systemConfig-version.cmake
+[2.245s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.xml
+[2.268s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/geo_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/geo_system

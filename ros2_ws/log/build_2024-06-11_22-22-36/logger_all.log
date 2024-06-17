@@ -1,0 +1,308 @@
+[0.448s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.448s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8406c370>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff841d0f70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff841d0f70>>)
+[1.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.286s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/geomatics_in_house_system/ros2_ws'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extensions ['ignore', 'ignore_ament_install']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extension 'ignore'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extension 'ignore_ament_install'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extensions ['colcon_pkg']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extension 'colcon_pkg'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extensions ['colcon_meta']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extension 'colcon_meta'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extensions ['ros']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extension 'ros'
+[1.356s] DEBUG:colcon.colcon_core.package_identification:Package 'src/geo_system' with type 'ros.ament_cmake' and name 'geo_system'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extensions ['ignore', 'ignore_ament_install']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extension 'ignore'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extension 'ignore_ament_install'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extensions ['colcon_pkg']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extension 'colcon_pkg'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extensions ['colcon_meta']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extension 'colcon_meta'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extensions ['ros']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extension 'ros'
+[1.362s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_odom' with type 'ros.ament_cmake' and name 'imu_odom'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/libpointmatcher_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/libpointmatcher_ros) by extension 'ignore'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/libpointmatcher_ros) ignored
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extensions ['ignore', 'ignore_ament_install']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extension 'ignore'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extension 'ignore_ament_install'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extensions ['colcon_pkg']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extension 'colcon_pkg'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extensions ['colcon_meta']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extension 'colcon_meta'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extensions ['ros']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extension 'ros'
+[1.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapper_config_template' with type 'ros.ament_cmake' and name 'mapper_config_template'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/norlab_icp_mapper_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/norlab_icp_mapper_ros) by extension 'ignore'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/norlab_icp_mapper_ros) ignored
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tcp_tunnel) by extensions ['ignore', 'ignore_ament_install']
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tcp_tunnel) by extension 'ignore'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tcp_tunnel) ignored
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extensions ['ignore', 'ignore_ament_install']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extension 'ignore'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) ignored
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'ignore'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) ignored
+[1.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.466s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/geomatics_in_house_system/ros2_ws/install
+[1.476s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 279 installed packages in /opt/ros/humble
+[1.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.684s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'cmake_args' from command line to 'None'
+[1.684s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'cmake_target' from command line to 'None'
+[1.684s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.684s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'cmake_clean_cache' from command line to 'False'
+[1.684s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'cmake_clean_first' from command line to 'False'
+[1.684s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'cmake_force_configure' from command line to 'False'
+[1.684s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'ament_cmake_args' from command line to 'None'
+[1.685s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'catkin_cmake_args' from command line to 'None'
+[1.685s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.685s] DEBUG:colcon.colcon_core.verb:Building package 'geo_system' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geomatics_in_house_system/ros2_ws/build/geo_system', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geomatics_in_house_system/ros2_ws/install/geo_system', 'merge_install': False, 'path': '/home/geomatics_in_house_system/ros2_ws/src/geo_system', 'symlink_install': False, 'test_result_base': None}
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'cmake_args' from command line to 'None'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'cmake_target' from command line to 'None'
+[1.687s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.687s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[1.687s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'cmake_clean_first' from command line to 'False'
+[1.687s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'cmake_force_configure' from command line to 'False'
+[1.687s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'ament_cmake_args' from command line to 'None'
+[1.687s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[1.687s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.687s] DEBUG:colcon.colcon_core.verb:Building package 'imu_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geomatics_in_house_system/ros2_ws/build/imu_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geomatics_in_house_system/ros2_ws/install/imu_odom', 'merge_install': False, 'path': '/home/geomatics_in_house_system/ros2_ws/src/imu_odom', 'symlink_install': False, 'test_result_base': None}
+[1.689s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'cmake_args' from command line to 'None'
+[1.689s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'cmake_target' from command line to 'None'
+[1.689s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.689s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'cmake_clean_cache' from command line to 'False'
+[1.689s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'cmake_clean_first' from command line to 'False'
+[1.689s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'cmake_force_configure' from command line to 'False'
+[1.689s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'ament_cmake_args' from command line to 'None'
+[1.689s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'catkin_cmake_args' from command line to 'None'
+[1.690s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.690s] DEBUG:colcon.colcon_core.verb:Building package 'mapper_config_template' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template', 'merge_install': False, 'path': '/home/geomatics_in_house_system/ros2_ws/src/mapper_config_template', 'symlink_install': False, 'test_result_base': None}
+[1.690s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.694s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.695s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geomatics_in_house_system/ros2_ws/src/geo_system' with build type 'ament_cmake'
+[1.695s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geomatics_in_house_system/ros2_ws/src/geo_system'
+[1.704s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.705s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.705s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.729s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geomatics_in_house_system/ros2_ws/src/imu_odom' with build type 'ament_cmake'
+[1.730s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geomatics_in_house_system/ros2_ws/src/imu_odom'
+[1.731s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.732s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.756s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geomatics_in_house_system/ros2_ws/src/mapper_config_template' with build type 'ament_cmake'
+[1.757s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geomatics_in_house_system/ros2_ws/src/mapper_config_template'
+[1.758s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.758s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/geo_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/geo_system -- -j4 -l4
+[1.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/imu_odom -- -j4 -l4
+[1.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/mapper_config_template -- -j4 -l4
+[2.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/geo_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/geo_system -- -j4 -l4
+[2.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/mapper_config_template -- -j4 -l4
+[2.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/geo_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/geo_system
+[2.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/mapper_config_template
+[2.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/imu_odom -- -j4 -l4
+[2.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(geo_system)
+[2.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/geo_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/geo_system
+[2.317s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system' for CMake module files
+[2.321s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system' for CMake config files
+[2.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('geo_system', 'cmake_prefix_path')
+[2.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/hook/cmake_prefix_path.ps1'
+[2.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/hook/cmake_prefix_path.dsv'
+[2.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/hook/cmake_prefix_path.sh'
+[2.333s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/bin'
+[2.334s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/lib/pkgconfig/geo_system.pc'
+[2.335s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/lib/python3.10/site-packages'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/bin'
+[2.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.ps1'
+[2.341s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.dsv'
+[2.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.sh'
+[2.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.bash'
+[2.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.zsh'
+[2.353s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/colcon-core/packages/geo_system)
+[2.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapper_config_template)
+[2.362s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template' for CMake module files
+[2.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/mapper_config_template
+[2.367s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template' for CMake config files
+[2.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapper_config_template', 'cmake_prefix_path')
+[2.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/hook/cmake_prefix_path.ps1'
+[2.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/hook/cmake_prefix_path.dsv'
+[2.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/hook/cmake_prefix_path.sh'
+[2.377s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/bin'
+[2.378s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/lib/pkgconfig/mapper_config_template.pc'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/lib/python3.10/site-packages'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/bin'
+[2.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.ps1'
+[2.384s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.dsv'
+[2.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.sh'
+[2.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.bash'
+[2.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.zsh'
+[2.395s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/colcon-core/packages/mapper_config_template)
+[2.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/imu_odom
+[2.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_odom)
+[2.489s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom' for CMake module files
+[2.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/imu_odom
+[2.497s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom' for CMake config files
+[2.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_odom', 'cmake_prefix_path')
+[2.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/hook/cmake_prefix_path.ps1'
+[2.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/hook/cmake_prefix_path.dsv'
+[2.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/hook/cmake_prefix_path.sh'
+[2.508s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib'
+[2.509s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/bin'
+[2.510s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib/pkgconfig/imu_odom.pc'
+[2.511s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib/python3.10/site-packages'
+[2.512s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/bin'
+[2.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.ps1'
+[2.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.dsv'
+[2.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.sh'
+[2.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.bash'
+[2.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.zsh'
+[2.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/colcon-core/packages/imu_odom)
+[2.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(geo_system)
+[2.535s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system' for CMake module files
+[2.538s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system' for CMake config files
+[2.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('geo_system', 'cmake_prefix_path')
+[2.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/hook/cmake_prefix_path.ps1'
+[2.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/hook/cmake_prefix_path.dsv'
+[2.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/hook/cmake_prefix_path.sh'
+[2.548s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/bin'
+[2.549s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/lib/pkgconfig/geo_system.pc'
+[2.550s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/lib/python3.10/site-packages'
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/bin'
+[2.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.ps1'
+[2.556s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.dsv'
+[2.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.sh'
+[2.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.bash'
+[2.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.zsh'
+[2.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/colcon-core/packages/geo_system)
+[2.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapper_config_template)
+[2.575s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template' for CMake module files
+[2.578s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template' for CMake config files
+[2.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapper_config_template', 'cmake_prefix_path')
+[2.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/hook/cmake_prefix_path.ps1'
+[2.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/hook/cmake_prefix_path.dsv'
+[2.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/hook/cmake_prefix_path.sh'
+[2.588s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/bin'
+[2.589s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/lib/pkgconfig/mapper_config_template.pc'
+[2.590s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/lib/python3.10/site-packages'
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/bin'
+[2.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.ps1'
+[2.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.dsv'
+[2.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.sh'
+[2.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.bash'
+[2.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.zsh'
+[2.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/colcon-core/packages/mapper_config_template)
+[2.708s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_odom)
+[2.709s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom' for CMake module files
+[2.713s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom' for CMake config files
+[2.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_odom', 'cmake_prefix_path')
+[2.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/hook/cmake_prefix_path.ps1'
+[2.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/hook/cmake_prefix_path.dsv'
+[2.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/hook/cmake_prefix_path.sh'
+[2.722s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib'
+[2.723s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/bin'
+[2.723s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib/pkgconfig/imu_odom.pc'
+[2.724s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib/python3.10/site-packages'
+[2.725s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/bin'
+[2.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.ps1'
+[2.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.dsv'
+[2.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.sh'
+[2.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.bash'
+[2.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.zsh'
+[2.736s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/colcon-core/packages/imu_odom)
+[2.738s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.739s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.739s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.740s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.762s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.763s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.763s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.803s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/geomatics_in_house_system/ros2_ws/install/local_setup.ps1'
+[2.808s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/geomatics_in_house_system/ros2_ws/install/_local_setup_util_ps1.py'
+[2.815s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/geomatics_in_house_system/ros2_ws/install/setup.ps1'
+[2.825s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/geomatics_in_house_system/ros2_ws/install/local_setup.sh'
+[2.828s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/geomatics_in_house_system/ros2_ws/install/_local_setup_util_sh.py'
+[2.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/geomatics_in_house_system/ros2_ws/install/setup.sh'
+[2.838s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/geomatics_in_house_system/ros2_ws/install/local_setup.bash'
+[2.840s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/geomatics_in_house_system/ros2_ws/install/setup.bash'
+[2.849s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/geomatics_in_house_system/ros2_ws/install/local_setup.zsh'
+[2.851s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/geomatics_in_house_system/ros2_ws/install/setup.zsh'

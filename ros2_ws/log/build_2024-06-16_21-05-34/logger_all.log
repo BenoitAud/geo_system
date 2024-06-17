@@ -1,0 +1,669 @@
+[1.495s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.496s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa674c370>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa68b0f70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa68b0f70>>)
+[3.759s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.759s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.759s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.760s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/geomatics_in_house_system/ros2_ws'
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[3.818s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[3.818s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[3.818s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[3.818s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[3.818s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[3.822s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[3.822s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[3.822s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[3.822s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[3.822s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[3.823s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[3.823s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extensions ['ignore', 'ignore_ament_install']
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extension 'ignore'
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extension 'ignore_ament_install'
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extensions ['colcon_pkg']
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extension 'colcon_pkg'
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extensions ['colcon_meta']
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extension 'colcon_meta'
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extensions ['ros']
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/geo_system) by extension 'ros'
+[3.838s] DEBUG:colcon.colcon_core.package_identification:Package 'src/geo_system' with type 'ros.ament_cmake' and name 'geo_system'
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extensions ['ignore', 'ignore_ament_install']
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extension 'ignore'
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extension 'ignore_ament_install'
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extensions ['colcon_pkg']
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extension 'colcon_pkg'
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extensions ['colcon_meta']
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extension 'colcon_meta'
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extensions ['ros']
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odom) by extension 'ros'
+[3.844s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_odom' with type 'ros.ament_cmake' and name 'imu_odom'
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/libpointmatcher_ros) by extensions ['ignore', 'ignore_ament_install']
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/libpointmatcher_ros) by extension 'ignore'
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/libpointmatcher_ros) ignored
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extensions ['ignore', 'ignore_ament_install']
+[3.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extension 'ignore'
+[3.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extension 'ignore_ament_install'
+[3.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extensions ['colcon_pkg']
+[3.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extension 'colcon_pkg'
+[3.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extensions ['colcon_meta']
+[3.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extension 'colcon_meta'
+[3.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extensions ['ros']
+[3.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapper_config_template) by extension 'ros'
+[3.851s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapper_config_template' with type 'ros.ament_cmake' and name 'mapper_config_template'
+[3.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/norlab_icp_mapper_ros) by extensions ['ignore', 'ignore_ament_install']
+[3.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/norlab_icp_mapper_ros) by extension 'ignore'
+[3.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/norlab_icp_mapper_ros) ignored
+[3.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tcp_tunnel) by extensions ['ignore', 'ignore_ament_install']
+[3.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tcp_tunnel) by extension 'ignore'
+[3.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tcp_tunnel) ignored
+[3.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extensions ['ignore', 'ignore_ament_install']
+[3.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extension 'ignore'
+[3.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) ignored
+[3.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[3.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'ignore'
+[3.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'ignore_ament_install'
+[3.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['colcon_pkg']
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'colcon_pkg'
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['colcon_meta']
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'colcon_meta'
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['ros']
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'ros'
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['cmake', 'python']
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'cmake'
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'python'
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extensions ['python_setup_py']
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne) by extension 'python_setup_py'
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'ignore'
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'ignore_ament_install'
+[3.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['colcon_pkg']
+[3.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'colcon_pkg'
+[3.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['colcon_meta']
+[3.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'colcon_meta'
+[3.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extensions ['ros']
+[3.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne) by extension 'ros'
+[3.862s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne' with type 'ros.ament_cmake' and name 'velodyne'
+[3.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['ignore', 'ignore_ament_install']
+[3.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'ignore'
+[3.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'ignore_ament_install'
+[3.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['colcon_pkg']
+[3.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'colcon_pkg'
+[3.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['colcon_meta']
+[3.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'colcon_meta'
+[3.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extensions ['ros']
+[3.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_driver) by extension 'ros'
+[3.869s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_driver' with type 'ros.ament_cmake' and name 'velodyne_driver'
+[3.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[3.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'ignore'
+[3.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'ignore_ament_install'
+[3.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['colcon_pkg']
+[3.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'colcon_pkg'
+[3.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['colcon_meta']
+[3.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'colcon_meta'
+[3.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extensions ['ros']
+[3.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_laserscan) by extension 'ros'
+[3.875s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_laserscan' with type 'ros.ament_cmake' and name 'velodyne_laserscan'
+[3.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'ignore'
+[3.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'ignore_ament_install'
+[3.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['colcon_pkg']
+[3.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'colcon_pkg'
+[3.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['colcon_meta']
+[3.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'colcon_meta'
+[3.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extensions ['ros']
+[3.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_msgs) by extension 'ros'
+[3.881s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_msgs' with type 'ros.ament_cmake' and name 'velodyne_msgs'
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['ignore', 'ignore_ament_install']
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'ignore'
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'ignore_ament_install'
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['colcon_pkg']
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'colcon_pkg'
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['colcon_meta']
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'colcon_meta'
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extensions ['ros']
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne/velodyne_pointcloud) by extension 'ros'
+[3.890s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne/velodyne_pointcloud' with type 'ros.ament_cmake' and name 'velodyne_pointcloud'
+[3.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.044s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/geomatics_in_house_system/ros2_ws/install
+[4.059s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 279 installed packages in /opt/ros/humble
+[4.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.381s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'cmake_args' from command line to 'None'
+[4.382s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'cmake_target' from command line to 'None'
+[4.382s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.382s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'cmake_clean_cache' from command line to 'False'
+[4.382s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'cmake_clean_first' from command line to 'False'
+[4.382s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'cmake_force_configure' from command line to 'False'
+[4.382s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'ament_cmake_args' from command line to 'None'
+[4.382s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'catkin_cmake_args' from command line to 'None'
+[4.382s] Level 5:colcon.colcon_core.verb:set package 'geo_system' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.383s] DEBUG:colcon.colcon_core.verb:Building package 'geo_system' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geomatics_in_house_system/ros2_ws/build/geo_system', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geomatics_in_house_system/ros2_ws/install/geo_system', 'merge_install': False, 'path': '/home/geomatics_in_house_system/ros2_ws/src/geo_system', 'symlink_install': False, 'test_result_base': None}
+[4.384s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'cmake_args' from command line to 'None'
+[4.384s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'cmake_target' from command line to 'None'
+[4.385s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.385s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[4.385s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'cmake_clean_first' from command line to 'False'
+[4.385s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'cmake_force_configure' from command line to 'False'
+[4.385s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'ament_cmake_args' from command line to 'None'
+[4.385s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[4.385s] Level 5:colcon.colcon_core.verb:set package 'imu_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.385s] DEBUG:colcon.colcon_core.verb:Building package 'imu_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geomatics_in_house_system/ros2_ws/build/imu_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geomatics_in_house_system/ros2_ws/install/imu_odom', 'merge_install': False, 'path': '/home/geomatics_in_house_system/ros2_ws/src/imu_odom', 'symlink_install': False, 'test_result_base': None}
+[4.387s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'cmake_args' from command line to 'None'
+[4.387s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'cmake_target' from command line to 'None'
+[4.387s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.387s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'cmake_clean_cache' from command line to 'False'
+[4.388s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'cmake_clean_first' from command line to 'False'
+[4.388s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'cmake_force_configure' from command line to 'False'
+[4.388s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'ament_cmake_args' from command line to 'None'
+[4.388s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'catkin_cmake_args' from command line to 'None'
+[4.388s] Level 5:colcon.colcon_core.verb:set package 'mapper_config_template' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.388s] DEBUG:colcon.colcon_core.verb:Building package 'mapper_config_template' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template', 'merge_install': False, 'path': '/home/geomatics_in_house_system/ros2_ws/src/mapper_config_template', 'symlink_install': False, 'test_result_base': None}
+[4.390s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_args' from command line to 'None'
+[4.390s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target' from command line to 'None'
+[4.390s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.390s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[4.390s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[4.391s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[4.391s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[4.391s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[4.391s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.391s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan', 'merge_install': False, 'path': '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_laserscan', 'symlink_install': False, 'test_result_base': None}
+[4.393s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_args' from command line to 'None'
+[4.393s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target' from command line to 'None'
+[4.393s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.393s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[4.393s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[4.393s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[4.393s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[4.394s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[4.394s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.394s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs', 'merge_install': False, 'path': '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_msgs', 'symlink_install': False, 'test_result_base': None}
+[4.395s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_args' from command line to 'None'
+[4.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target' from command line to 'None'
+[4.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[4.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_first' from command line to 'False'
+[4.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_force_configure' from command line to 'False'
+[4.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'ament_cmake_args' from command line to 'None'
+[4.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[4.396s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.397s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geomatics_in_house_system/ros2_ws/build/velodyne_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver', 'merge_install': False, 'path': '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_driver', 'symlink_install': False, 'test_result_base': None}
+[4.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_args' from command line to 'None'
+[4.398s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target' from command line to 'None'
+[4.399s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.399s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_cache' from command line to 'False'
+[4.399s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_first' from command line to 'False'
+[4.399s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_force_configure' from command line to 'False'
+[4.399s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'ament_cmake_args' from command line to 'None'
+[4.399s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_cmake_args' from command line to 'None'
+[4.399s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.399s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_pointcloud' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geomatics_in_house_system/ros2_ws/build/velodyne_pointcloud', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud', 'merge_install': False, 'path': '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_pointcloud', 'symlink_install': False, 'test_result_base': None}
+[4.401s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_args' from command line to 'None'
+[4.401s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target' from command line to 'None'
+[4.401s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.401s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_cache' from command line to 'False'
+[4.402s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_first' from command line to 'False'
+[4.402s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_force_configure' from command line to 'False'
+[4.402s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'ament_cmake_args' from command line to 'None'
+[4.402s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_cmake_args' from command line to 'None'
+[4.402s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.402s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geomatics_in_house_system/ros2_ws/build/velodyne', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geomatics_in_house_system/ros2_ws/install/velodyne', 'merge_install': False, 'path': '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne', 'symlink_install': False, 'test_result_base': None}
+[4.403s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.406s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.408s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_msgs' with build type 'ament_cmake'
+[4.409s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_msgs'
+[4.423s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.425s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.479s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_laserscan' with build type 'ament_cmake'
+[4.479s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_laserscan'
+[4.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.514s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geomatics_in_house_system/ros2_ws/src/geo_system' with build type 'ament_cmake'
+[4.516s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geomatics_in_house_system/ros2_ws/src/geo_system'
+[4.518s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.519s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.551s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geomatics_in_house_system/ros2_ws/src/imu_odom' with build type 'ament_cmake'
+[4.551s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geomatics_in_house_system/ros2_ws/src/imu_odom'
+[4.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.553s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs -- -j4 -l4
+[4.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan -- -j4 -l4
+[4.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/geo_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/geo_system -- -j4 -l4
+[4.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/imu_odom -- -j4 -l4
+[5.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/geo_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/geo_system -- -j4 -l4
+[5.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/imu_odom -- -j4 -l4
+[5.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/geo_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/geo_system
+[5.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan -- -j4 -l4
+[5.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(geo_system)
+[5.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/geo_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/geo_system
+[5.875s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system' for CMake module files
+[5.884s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system' for CMake config files
+[5.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('geo_system', 'cmake_prefix_path')
+[5.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/hook/cmake_prefix_path.ps1'
+[5.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/hook/cmake_prefix_path.dsv'
+[5.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/hook/cmake_prefix_path.sh'
+[5.915s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/bin'
+[5.916s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/lib/pkgconfig/geo_system.pc'
+[5.919s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/lib/python3.10/site-packages'
+[5.922s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/bin'
+[5.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.ps1'
+[5.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.dsv'
+[5.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.sh'
+[5.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.bash'
+[5.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.zsh'
+[5.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/colcon-core/packages/geo_system)
+[6.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/imu_odom
+[6.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_odom)
+[6.197s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom' for CMake module files
+[6.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/imu_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/imu_odom
+[6.213s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom' for CMake config files
+[6.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_odom', 'cmake_prefix_path')
+[6.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/hook/cmake_prefix_path.ps1'
+[6.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/hook/cmake_prefix_path.dsv'
+[6.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/hook/cmake_prefix_path.sh'
+[6.273s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib'
+[6.276s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/bin'
+[6.277s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib/pkgconfig/imu_odom.pc'
+[6.279s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib/python3.10/site-packages'
+[6.285s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/bin'
+[6.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.ps1'
+[6.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.dsv'
+[6.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.sh'
+[6.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.bash'
+[6.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.zsh'
+[6.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/colcon-core/packages/imu_odom)
+[6.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan
+[6.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(geo_system)
+[6.421s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system' for CMake module files
+[6.425s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system' for CMake config files
+[6.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('geo_system', 'cmake_prefix_path')
+[6.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/hook/cmake_prefix_path.ps1'
+[6.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/hook/cmake_prefix_path.dsv'
+[6.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/hook/cmake_prefix_path.sh'
+[6.464s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/bin'
+[6.465s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/lib/pkgconfig/geo_system.pc'
+[6.467s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/lib/python3.10/site-packages'
+[6.470s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/geo_system/bin'
+[6.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.ps1'
+[6.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.dsv'
+[6.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.sh'
+[6.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.bash'
+[6.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/geo_system/package.zsh'
+[6.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/geo_system/share/colcon-core/packages/geo_system)
+[6.551s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geomatics_in_house_system/ros2_ws/src/mapper_config_template' with build type 'ament_cmake'
+[6.553s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geomatics_in_house_system/ros2_ws/src/mapper_config_template'
+[6.560s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_laserscan)
+[6.697s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan' for CMake module files
+[6.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan
+[6.712s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan' for CMake config files
+[6.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'cmake_prefix_path')
+[6.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.ps1'
+[6.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.dsv'
+[6.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.sh'
+[6.740s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib'
+[6.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'ld_library_path_lib')
+[6.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.ps1'
+[6.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.dsv'
+[6.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.sh'
+[6.757s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/bin'
+[6.758s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib/pkgconfig/velodyne_laserscan.pc'
+[6.759s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib/python3.10/site-packages'
+[6.760s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/bin'
+[6.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.ps1'
+[6.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv'
+[6.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.sh'
+[6.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.bash'
+[6.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.zsh'
+[6.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/colcon-core/packages/velodyne_laserscan)
+[6.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_odom)
+[6.790s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom' for CMake module files
+[6.794s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom' for CMake config files
+[6.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_odom', 'cmake_prefix_path')
+[6.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/hook/cmake_prefix_path.ps1'
+[6.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/hook/cmake_prefix_path.dsv'
+[6.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/hook/cmake_prefix_path.sh'
+[6.808s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib'
+[6.809s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/bin'
+[6.810s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib/pkgconfig/imu_odom.pc'
+[6.811s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/lib/python3.10/site-packages'
+[6.814s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/bin'
+[6.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.ps1'
+[6.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.dsv'
+[6.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.sh'
+[6.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.bash'
+[6.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/imu_odom/package.zsh'
+[6.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/imu_odom/share/colcon-core/packages/imu_odom)
+[6.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/mapper_config_template -- -j4 -l4
+[7.173s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_laserscan)
+[7.176s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan' for CMake module files
+[7.188s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan' for CMake config files
+[7.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'cmake_prefix_path')
+[7.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.ps1'
+[7.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.dsv'
+[7.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.sh'
+[7.216s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib'
+[7.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'ld_library_path_lib')
+[7.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.ps1'
+[7.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.dsv'
+[7.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.sh'
+[7.235s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/bin'
+[7.236s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib/pkgconfig/velodyne_laserscan.pc'
+[7.238s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib/python3.10/site-packages'
+[7.241s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/bin'
+[7.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.ps1'
+[7.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv'
+[7.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.sh'
+[7.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.bash'
+[7.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.zsh'
+[7.279s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/colcon-core/packages/velodyne_laserscan)
+[7.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/mapper_config_template -- -j4 -l4
+[7.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/mapper_config_template
+[7.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapper_config_template)
+[7.779s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template' for CMake module files
+[7.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/mapper_config_template' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/mapper_config_template
+[7.791s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template' for CMake config files
+[7.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapper_config_template', 'cmake_prefix_path')
+[7.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/hook/cmake_prefix_path.ps1'
+[7.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/hook/cmake_prefix_path.dsv'
+[7.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/hook/cmake_prefix_path.sh'
+[7.817s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/bin'
+[7.818s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/lib/pkgconfig/mapper_config_template.pc'
+[7.820s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/lib/python3.10/site-packages'
+[7.823s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/bin'
+[7.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.ps1'
+[7.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.dsv'
+[7.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.sh'
+[7.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.bash'
+[7.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.zsh'
+[7.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/colcon-core/packages/mapper_config_template)
+[8.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapper_config_template)
+[8.242s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template' for CMake module files
+[8.250s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template' for CMake config files
+[8.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapper_config_template', 'cmake_prefix_path')
+[8.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/hook/cmake_prefix_path.ps1'
+[8.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/hook/cmake_prefix_path.dsv'
+[8.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/hook/cmake_prefix_path.sh'
+[8.275s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/bin'
+[8.276s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/lib/pkgconfig/mapper_config_template.pc'
+[8.279s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/lib/python3.10/site-packages'
+[8.284s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/bin'
+[8.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.ps1'
+[8.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.dsv'
+[8.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.sh'
+[8.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.bash'
+[8.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/mapper_config_template/package.zsh'
+[8.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template/share/colcon-core/packages/mapper_config_template)
+[9.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs -- -j4 -l4
+[10.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs
+[10.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[10.628s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs' for CMake module files
+[10.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne_msgs
+[10.633s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs' for CMake config files
+[10.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'cmake_prefix_path')
+[10.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.ps1'
+[10.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.dsv'
+[10.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.sh'
+[10.646s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib'
+[10.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'ld_library_path_lib')
+[10.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.ps1'
+[10.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.dsv'
+[10.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.sh'
+[10.654s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/bin'
+[10.654s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[10.655s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/python3.10/site-packages'
+[10.656s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/bin'
+[10.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[10.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[10.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[10.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[10.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[10.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[11.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[11.480s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs' for CMake module files
+[11.485s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs' for CMake config files
+[11.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'cmake_prefix_path')
+[11.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.ps1'
+[11.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.dsv'
+[11.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.sh'
+[11.497s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib'
+[11.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'ld_library_path_lib')
+[11.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.ps1'
+[11.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.dsv'
+[11.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.sh'
+[11.505s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/bin'
+[11.505s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[11.506s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib/python3.10/site-packages'
+[11.507s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/bin'
+[11.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[11.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[11.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[11.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[11.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[11.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[11.523s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_driver' with build type 'ament_cmake'
+[11.523s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_driver'
+[11.525s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.552s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_pointcloud' with build type 'ament_cmake'
+[11.553s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne_pointcloud'
+[11.554s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/home/geomatics_in_house_system/ros2_ws/install/imu_odom:/home/geomatics_in_house_system/ros2_ws/install/geo_system:/opt/ros/humble LD_LIBRARY_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne_driver -- -j4 -l4
+[11.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_pointcloud': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/home/geomatics_in_house_system/ros2_ws/install/imu_odom:/home/geomatics_in_house_system/ros2_ws/install/geo_system:/opt/ros/humble LD_LIBRARY_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne_pointcloud -- -j4 -l4
+[12.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/home/geomatics_in_house_system/ros2_ws/install/imu_odom:/home/geomatics_in_house_system/ros2_ws/install/geo_system:/opt/ros/humble LD_LIBRARY_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne_driver -- -j4 -l4
+[13.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_pointcloud' returned '0': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/home/geomatics_in_house_system/ros2_ws/install/imu_odom:/home/geomatics_in_house_system/ros2_ws/install/geo_system:/opt/ros/humble LD_LIBRARY_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne_pointcloud -- -j4 -l4
+[13.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/home/geomatics_in_house_system/ros2_ws/install/imu_odom:/home/geomatics_in_house_system/ros2_ws/install/geo_system:/opt/ros/humble LD_LIBRARY_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne_driver
+[13.584s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_driver)
+[13.585s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver' for CMake module files
+[13.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/home/geomatics_in_house_system/ros2_ws/install/imu_odom:/home/geomatics_in_house_system/ros2_ws/install/geo_system:/opt/ros/humble LD_LIBRARY_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne_driver
+[13.599s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver' for CMake config files
+[13.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'cmake_prefix_path')
+[13.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.ps1'
+[13.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.dsv'
+[13.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.sh'
+[13.616s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib'
+[13.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'ld_library_path_lib')
+[13.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.ps1'
+[13.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.dsv'
+[13.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.sh'
+[13.624s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/bin'
+[13.624s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib/pkgconfig/velodyne_driver.pc'
+[13.626s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib/python3.10/site-packages'
+[13.627s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/bin'
+[13.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.ps1'
+[13.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.dsv'
+[13.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.sh'
+[13.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.bash'
+[13.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.zsh'
+[13.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/colcon-core/packages/velodyne_driver)
+[13.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_pointcloud': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/home/geomatics_in_house_system/ros2_ws/install/imu_odom:/home/geomatics_in_house_system/ros2_ws/install/geo_system:/opt/ros/humble LD_LIBRARY_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne_pointcloud
+[13.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_pointcloud)
+[13.757s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud' for CMake module files
+[13.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_pointcloud' returned '0': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/home/geomatics_in_house_system/ros2_ws/install/imu_odom:/home/geomatics_in_house_system/ros2_ws/install/geo_system:/opt/ros/humble LD_LIBRARY_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav/lib:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs/lib:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel/lib:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros/lib:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne_pointcloud
+[13.768s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud' for CMake config files
+[13.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'cmake_prefix_path')
+[13.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.ps1'
+[13.784s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.dsv'
+[13.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.sh'
+[13.794s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib'
+[13.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'ld_library_path_lib')
+[13.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.ps1'
+[13.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.dsv'
+[13.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.sh'
+[13.811s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/bin'
+[13.812s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib/pkgconfig/velodyne_pointcloud.pc'
+[13.814s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib/python3.10/site-packages'
+[13.816s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/bin'
+[13.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.ps1'
+[13.825s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv'
+[13.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.sh'
+[13.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.bash'
+[13.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.zsh'
+[13.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/colcon-core/packages/velodyne_pointcloud)
+[14.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_driver)
+[14.040s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver' for CMake module files
+[14.047s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver' for CMake config files
+[14.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'cmake_prefix_path')
+[14.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.ps1'
+[14.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.dsv'
+[14.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.sh'
+[14.061s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib'
+[14.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'ld_library_path_lib')
+[14.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.ps1'
+[14.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.dsv'
+[14.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.sh'
+[14.069s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/bin'
+[14.070s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib/pkgconfig/velodyne_driver.pc'
+[14.071s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/lib/python3.10/site-packages'
+[14.072s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/bin'
+[14.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.ps1'
+[14.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.dsv'
+[14.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.sh'
+[14.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.bash'
+[14.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/velodyne_driver/package.zsh'
+[14.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver/share/colcon-core/packages/velodyne_driver)
+[14.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_pointcloud)
+[14.193s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud' for CMake module files
+[14.201s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud' for CMake config files
+[14.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'cmake_prefix_path')
+[14.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.ps1'
+[14.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.dsv'
+[14.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.sh'
+[14.227s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib'
+[14.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'ld_library_path_lib')
+[14.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.ps1'
+[14.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.dsv'
+[14.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.sh'
+[14.244s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/bin'
+[14.245s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib/pkgconfig/velodyne_pointcloud.pc'
+[14.247s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/lib/python3.10/site-packages'
+[14.250s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/bin'
+[14.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.ps1'
+[14.254s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv'
+[14.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.sh'
+[14.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.bash'
+[14.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.zsh'
+[14.264s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud/share/colcon-core/packages/velodyne_pointcloud)
+[14.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne' with build type 'ament_cmake'
+[14.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geomatics_in_house_system/ros2_ws/src/velodyne/velodyne'
+[14.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/home/geomatics_in_house_system/ros2_ws/install/imu_odom:/home/geomatics_in_house_system/ros2_ws/install/geo_system:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne -- -j4 -l4
+[14.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne' returned '0': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/home/geomatics_in_house_system/ros2_ws/install/imu_odom:/home/geomatics_in_house_system/ros2_ws/install/geo_system:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne -- -j4 -l4
+[14.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/home/geomatics_in_house_system/ros2_ws/install/imu_odom:/home/geomatics_in_house_system/ros2_ws/install/geo_system:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne
+[14.910s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne)
+[14.911s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne' for CMake module files
+[14.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne' returned '0': CMAKE_PREFIX_PATH=/home/geomatics_in_house_system/ros2_ws/install/velodyne_pointcloud:/home/geomatics_in_house_system/ros2_ws/install/velodyne_driver:/home/geomatics_in_house_system/ros2_ws/install/velodyne_msgs:/home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan:/home/geomatics_in_house_system/ros2_ws/install/velodyne:/home/geomatics_in_house_system/ros2_ws/install/vectornav:/home/geomatics_in_house_system/ros2_ws/install/vectornav_msgs:/home/geomatics_in_house_system/ros2_ws/install/tcp_tunnel:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper_ros:/home/geomatics_in_house_system/ros2_ws/install/norlab_icp_mapper:/home/geomatics_in_house_system/ros2_ws/install/mapper_config_template:/home/geomatics_in_house_system/ros2_ws/install/libpointmatcher_ros:/home/geomatics_in_house_system/ros2_ws/install/imu_odom:/home/geomatics_in_house_system/ros2_ws/install/geo_system:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne
+[14.916s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne' for CMake config files
+[14.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne', 'cmake_prefix_path')
+[14.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.ps1'
+[14.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.dsv'
+[14.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.sh'
+[14.938s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne/bin'
+[14.940s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne/lib/pkgconfig/velodyne.pc'
+[14.942s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne/lib/python3.10/site-packages'
+[14.945s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne/bin'
+[14.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/package.ps1'
+[14.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/package.dsv'
+[14.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/package.sh'
+[14.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/package.bash'
+[14.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/package.zsh'
+[14.961s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/colcon-core/packages/velodyne)
+[15.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne)
+[15.127s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne' for CMake module files
+[15.130s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne' for CMake config files
+[15.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne', 'cmake_prefix_path')
+[15.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.ps1'
+[15.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.dsv'
+[15.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/hook/cmake_prefix_path.sh'
+[15.141s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne/bin'
+[15.141s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne/lib/pkgconfig/velodyne.pc'
+[15.142s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne/lib/python3.10/site-packages'
+[15.144s] Level 1:colcon.colcon_core.environment:checking '/home/geomatics_in_house_system/ros2_ws/install/velodyne/bin'
+[15.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/package.ps1'
+[15.148s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/package.dsv'
+[15.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/package.sh'
+[15.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/package.bash'
+[15.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/velodyne/package.zsh'
+[15.157s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geomatics_in_house_system/ros2_ws/install/velodyne/share/colcon-core/packages/velodyne)
+[15.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.161s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.187s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.188s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.188s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.236s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.238s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/geomatics_in_house_system/ros2_ws/install/local_setup.ps1'
+[15.242s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/geomatics_in_house_system/ros2_ws/install/_local_setup_util_ps1.py'
+[15.249s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/geomatics_in_house_system/ros2_ws/install/setup.ps1'
+[15.258s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/geomatics_in_house_system/ros2_ws/install/local_setup.sh'
+[15.261s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/geomatics_in_house_system/ros2_ws/install/_local_setup_util_sh.py'
+[15.263s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/geomatics_in_house_system/ros2_ws/install/setup.sh'
+[15.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/geomatics_in_house_system/ros2_ws/install/local_setup.bash'
+[15.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/geomatics_in_house_system/ros2_ws/install/setup.bash'
+[15.285s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/geomatics_in_house_system/ros2_ws/install/local_setup.zsh'
+[15.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/geomatics_in_house_system/ros2_ws/install/setup.zsh'

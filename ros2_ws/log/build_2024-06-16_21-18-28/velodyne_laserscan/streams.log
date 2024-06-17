@@ -1,0 +1,32 @@
+[0.123s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan -- -j4 -l4
+[0.704s] [ 50%] Built target velodyne_laserscan
+[1.015s] [100%] Built target velodyne_laserscan_node
+[1.186s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan -- -j4 -l4
+[1.920s] Invoking command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan
+[1.995s] -- Install configuration: ""
+[1.995s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib/libvelodyne_laserscan.so
+[1.996s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node
+[1.997s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/include/velodyne_laserscan
+[1.997s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/include/velodyne_laserscan/velodyne_laserscan.hpp
+[1.999s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/config
+[2.002s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/config/default-velodyne_laserscan_node-params.yaml
+[2.006s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch
+[2.009s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-composed-launch.py
+[2.012s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-launch.py
+[2.013s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/ament_index/resource_index/package_run_dependencies/velodyne_laserscan
+[2.014s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/ament_index/resource_index/parent_prefix_path/velodyne_laserscan
+[2.014s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.sh
+[2.015s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.dsv
+[2.016s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.sh
+[2.017s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.dsv
+[2.036s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.bash
+[2.037s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.sh
+[2.037s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.zsh
+[2.038s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.dsv
+[2.039s] -- Installing: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv
+[2.040s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/ament_index/resource_index/packages/velodyne_laserscan
+[2.041s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/ament_index/resource_index/rclcpp_components/velodyne_laserscan
+[2.041s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig.cmake
+[2.042s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig-version.cmake
+[2.042s] -- Up-to-date: /home/geomatics_in_house_system/ros2_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.xml
+[2.043s] Invoked command in '/home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/geomatics_in_house_system/ros2_ws/build/velodyne_laserscan

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot name="geo_system" xmlns:xacro="http://ros.org/wiki/xacro">
+<!--xacro:property name="pi" value="3.14159265359" /-->
+  <link name="base_link"/>
+  <link name="velodyne"/>
+  <link name="imu"/>
+
+  <joint name="base_link_to_velodyne" type="fixed">
+    <origin rpy="0.79 0.0  1.57" xyz="0.3 0.0 0.105"/>
+    <parent link="base_link"/>
+    <child link="velodyne"/>
+  </joint>
+
+  <joint name="base_link_to_imu" type="fixed">
+    <origin rpy="0.0 0.0 -1.57" xyz="0.0 0.0 0.0"/>
+    <parent link="base_link"/>
+    <child link="imu"/>
+  </joint>
+
+</robot>
